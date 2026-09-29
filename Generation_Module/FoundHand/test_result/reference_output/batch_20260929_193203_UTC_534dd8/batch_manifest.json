@@ -1,0 +1,79 @@
+{
+  "batch_id": "batch_20260929_193203_UTC_534dd8",
+  "settings": {
+    "num_targets_per_clip": 5,
+    "select_only": false,
+    "prepare_only": false,
+    "device": "cuda",
+    "metrics_device": "cpu",
+    "sampling_steps": 100,
+    "cfg_scale": 2.5,
+    "seed": 2026,
+    "image_size": [
+      256,
+      256
+    ],
+    "reference_options": {
+      "crop_scale": 1.5,
+      "min_score": 0.7,
+      "edge_gap": 0.08,
+      "min_detail": 200.0,
+      "max_motion": 0.012
+    },
+    "target_options": {
+      "min_reference_gap_seconds": 0.3,
+      "min_target_gap_seconds": 0.3,
+      "min_shape_change": 0.25,
+      "min_wrist_displacement": 0.025,
+      "min_pair_distance_change": 0.025,
+      "min_hand_detail": 200.0,
+      "max_window_motion": 0.012,
+      "min_handedness_score": 0.7,
+      "edge_gap": 0.04,
+      "max_neighbor_wrist_jump": 0.08,
+      "max_neighbor_shape_jump": 0.5,
+      "crop_scale": 1.5
+    },
+    "pose_threshold_status": "provisional_pending_recalibration",
+    "check_extra_hands": true
+  },
+  "updated_at_utc": "2026-09-29T19:35:52.456151+00:00",
+  "clip_count": 5,
+  "jobs": [
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\--7E2sU6zP4_10-5-rgb_front.mp4",
+      "status": "completed",
+      "error": null,
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8\\--7E2sU6zP4_10-5-rgb_front_report"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\--7E2sU6zP4_11-5-rgb_front.mp4",
+      "status": "completed",
+      "error": null,
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8\\--7E2sU6zP4_11-5-rgb_front_report"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\--7E2sU6zP4_12-5-rgb_front.mp4",
+      "status": "completed",
+      "error": null,
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8\\--7E2sU6zP4_12-5-rgb_front_report"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\--7E2sU6zP4_13-5-rgb_front.mp4",
+      "status": "completed",
+      "error": null,
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8\\--7E2sU6zP4_13-5-rgb_front_report"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\--7E2sU6zP4_5-5-rgb_front.mp4",
+      "status": "completed",
+      "error": null,
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_193203_UTC_534dd8\\--7E2sU6zP4_5-5-rgb_front_report"
+    }
+  ]
+}

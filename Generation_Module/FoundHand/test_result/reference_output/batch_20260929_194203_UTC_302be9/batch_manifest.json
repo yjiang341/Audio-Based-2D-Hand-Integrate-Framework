@@ -1,0 +1,91 @@
+{
+  "batch_id": "batch_20260929_194203_UTC_302be9",
+  "settings": {
+    "num_targets_per_clip": 5,
+    "select_only": false,
+    "prepare_only": false,
+    "device": "cuda",
+    "metrics_device": "cpu",
+    "sampling_steps": 100,
+    "cfg_scale": 2.5,
+    "seed": 2026,
+    "image_size": [
+      256,
+      256
+    ],
+    "generation_seed": 2026,
+    "video_sampling": {
+      "mode": "random",
+      "sampling_seed": 2026,
+      "seed_applied": true,
+      "requested_max_clips": 5,
+      "selected_clip_count": 5,
+      "input_directory": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips",
+      "recursive": false,
+      "with_replacement": false,
+      "algorithm": "sorted_pool_local_random_shuffle_then_prefix"
+    },
+    "reference_options": {
+      "crop_scale": 1.5,
+      "min_score": 0.7,
+      "edge_gap": 0.08,
+      "min_detail": 200.0,
+      "max_motion": 0.012
+    },
+    "target_options": {
+      "min_reference_gap_seconds": 0.3,
+      "min_target_gap_seconds": 0.3,
+      "min_shape_change": 0.25,
+      "min_wrist_displacement": 0.025,
+      "min_pair_distance_change": 0.025,
+      "min_hand_detail": 200.0,
+      "max_window_motion": 0.012,
+      "min_handedness_score": 0.7,
+      "edge_gap": 0.04,
+      "max_neighbor_wrist_jump": 0.08,
+      "max_neighbor_shape_jump": 0.5,
+      "crop_scale": 1.5
+    },
+    "pose_threshold_status": "provisional_pending_recalibration",
+    "check_extra_hands": true
+  },
+  "updated_at_utc": "2026-09-29T19:42:14.862134+00:00",
+  "clip_count": 5,
+  "jobs": [
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\bAnA79gWZXI_16-5-rgb_front.mp4",
+      "status": "failed_model_initialization",
+      "error": "ModuleNotFoundError: No module named 'foundhand_runner'",
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9\\bAnA79gWZXI_16-5-rgb_front_report"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\14ZYG0hU6G8_10-8-rgb_front.mp4",
+      "status": "failed_model_initialization",
+      "error": "ModuleNotFoundError: No module named 'foundhand_runner'",
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9\\14ZYG0hU6G8_10-8-rgb_front_report"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\EQEjh8_dXSk_5-3-rgb_front.mp4",
+      "status": "failed_model_initialization",
+      "error": "ModuleNotFoundError: No module named 'foundhand_runner'",
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9\\EQEjh8_dXSk_5-3-rgb_front_report"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\0C_NjyLtHwc_46-8-rgb_front.mp4",
+      "status": "no_targets",
+      "error": null,
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9\\0C_NjyLtHwc_46-8-rgb_front_report"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-6YYqn8lplg_9-5-rgb_front.mp4",
+      "status": "failed_model_initialization",
+      "error": "ModuleNotFoundError: No module named 'foundhand_runner'",
+      "clip_output_root": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9",
+      "report_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_194203_UTC_302be9\\-6YYqn8lplg_9-5-rgb_front_report"
+    }
+  ]
+}
