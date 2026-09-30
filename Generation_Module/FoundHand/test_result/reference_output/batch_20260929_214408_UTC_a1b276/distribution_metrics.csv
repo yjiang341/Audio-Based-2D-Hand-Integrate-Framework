@@ -1,0 +1,22 @@
+﻿group,hand,status,clip_count,real_count,generated_count,fid,kid_mean,kid_subset_std,kid_subset_size,kid_subsets,reason
+quality_pass,overall,success,4,27,27,242.67796192732297,0.14964223264032694,3.6553155242989473e-16,27,100,
+quality_pass,left,success,4,13,13,278.90248168850616,0.15015243566430486,1.542371118540254e-16,13,100,
+quality_pass,right,success,4,14,14,253.26037571877734,0.14923549298606806,6.468180684544365e-16,14,100,
+quality_exception,overall,success,1,2,2,333.95811590203834,0.2912643632815097,5.218048215738236e-16,2,100,
+quality_exception,left,insufficient_samples,1,1,1,,,,,,Need >= 2 ROI pairs; got 1.
+quality_exception,right,insufficient_samples,1,1,1,,,,,,Need >= 2 ROI pairs; got 1.
+quality_unknown,overall,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_unknown,left,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_unknown,right,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_pass_single_hand,overall,insufficient_samples,1,1,1,,,,,,Need >= 2 ROI pairs; got 1.
+quality_pass_single_hand,left,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_pass_single_hand,right,insufficient_samples,1,1,1,,,,,,Need >= 2 ROI pairs; got 1.
+quality_pass_two_hands,overall,success,4,26,26,244.90124434451394,0.15034131939675163,3.5007252708724315e-16,26,100,
+quality_pass_two_hands,left,success,4,13,13,278.90248168850616,0.15015243566430486,1.542371118540254e-16,13,100,
+quality_pass_two_hands,right,success,4,13,13,256.9953852480351,0.14876311075358017,3.3601445959922217e-16,13,100,
+quality_exception_single_hand,overall,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_exception_single_hand,left,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_exception_single_hand,right,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_exception_two_hands,overall,success,1,2,2,333.95811590203834,0.2912643632815097,5.218048215738236e-16,2,100,
+quality_exception_two_hands,left,insufficient_samples,1,1,1,,,,,,Need >= 2 ROI pairs; got 1.
+quality_exception_two_hands,right,insufficient_samples,1,1,1,,,,,,Need >= 2 ROI pairs; got 1.

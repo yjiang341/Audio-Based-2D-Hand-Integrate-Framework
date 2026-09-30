@@ -1,0 +1,69 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>FoundHand batch report</title><style>body{font:15px system-ui;margin:24px;color:#222;background:#fafafa}table{border-collapse:collapse;background:white}th,td{border:1px solid #ddd;padding:9px;text-align:left}th{background:#eef3f7}.scroll{overflow:auto;margin:12px 0}img{display:block;max-width:none}details{background:white;border:1px solid #ddd;padding:12px;margin:16px 0}summary{cursor:pointer;font-weight:600}.error{color:#a22}nav a{margin-right:12px}</style><body><h1>How2Sign → FoundHand: batch report</h1>
+<p>5 clips · batch_20260929_214408_UTC_a1b276</p>
+<p>Paired metrics: matching unsegmented hand ROIs. PSNR/SSIM higher is better; LPIPS lower is better. Main Mean ± Std uses clip means; auxiliary results use target scores. Std is not a confidence interval.</p>
+<p>Orientation evaluation: deferred. References are excluded from all metrics.</p>
+<nav><a href='master_summary.json'>JSON</a> · <a href='hand_metrics.csv'>Hand CSV</a> · <a href='aggregate_metrics.csv'>Summary CSV</a> · <a href='distribution_metrics.csv'>Distribution CSV</a></nav>
+<h2>Paired metrics</h2><div class='scroll'><table><tr><th>Group</th><th>Weighting</th><th>PSNR (dB)</th><th>SSIM</th><th>LPIPS</th><th>Successful / selected targets</th></tr>
+<tr><td>quality_pass</td><td>Clip equal — main</td><td>7.5879 ± 0.5989 (n=4)</td><td>0.5143 ± 0.0066 (n=4)</td><td>0.6566 ± 0.0133 (n=4)</td><td>14 / 14</td></tr>
+<tr><td>quality_pass</td><td>Target equal — auxiliary</td><td>7.5669 ± 1.3482 (n=14)</td><td>0.5142 ± 0.0707 (n=14)</td><td>0.6576 ± 0.0309 (n=14)</td><td>14 / 14</td></tr>
+<tr><td>quality_exception</td><td>Clip equal — main</td><td>8.2419 ± N/A (n=1)</td><td>0.5144 ± N/A (n=1)</td><td>0.6744 ± N/A (n=1)</td><td>1 / 1</td></tr>
+<tr><td>quality_exception</td><td>Target equal — auxiliary</td><td>8.2419 ± N/A (n=1)</td><td>0.5144 ± N/A (n=1)</td><td>0.6744 ± N/A (n=1)</td><td>1 / 1</td></tr>
+<tr><td>quality_unknown</td><td>Clip equal — main</td><td>N/A ± N/A (n=0)</td><td>N/A ± N/A (n=0)</td><td>N/A ± N/A (n=0)</td><td>0 / 0</td></tr>
+<tr><td>quality_unknown</td><td>Target equal — auxiliary</td><td>N/A ± N/A (n=0)</td><td>N/A ± N/A (n=0)</td><td>N/A ± N/A (n=0)</td><td>0 / 0</td></tr>
+<tr><td>quality_pass_single_hand</td><td>Clip equal — main</td><td>5.5690 ± N/A (n=1)</td><td>0.3468 ± N/A (n=1)</td><td>0.6682 ± N/A (n=1)</td><td>1 / 1</td></tr>
+<tr><td>quality_pass_single_hand</td><td>Target equal — auxiliary</td><td>5.5690 ± N/A (n=1)</td><td>0.3468 ± N/A (n=1)</td><td>0.6682 ± N/A (n=1)</td><td>1 / 1</td></tr>
+<tr><td>quality_pass_two_hands</td><td>Clip equal — main</td><td>7.7049 ± 0.6063 (n=4)</td><td>0.5247 ± 0.0219 (n=4)</td><td>0.6563 ± 0.0131 (n=4)</td><td>13 / 13</td></tr>
+<tr><td>quality_pass_two_hands</td><td>Target equal — auxiliary</td><td>7.7206 ± 1.2692 (n=13)</td><td>0.5271 ± 0.0538 (n=13)</td><td>0.6568 ± 0.0320 (n=13)</td><td>13 / 13</td></tr>
+<tr><td>quality_exception_single_hand</td><td>Clip equal — main</td><td>N/A ± N/A (n=0)</td><td>N/A ± N/A (n=0)</td><td>N/A ± N/A (n=0)</td><td>0 / 0</td></tr>
+<tr><td>quality_exception_single_hand</td><td>Target equal — auxiliary</td><td>N/A ± N/A (n=0)</td><td>N/A ± N/A (n=0)</td><td>N/A ± N/A (n=0)</td><td>0 / 0</td></tr>
+<tr><td>quality_exception_two_hands</td><td>Clip equal — main</td><td>8.2419 ± N/A (n=1)</td><td>0.5144 ± N/A (n=1)</td><td>0.6744 ± N/A (n=1)</td><td>1 / 1</td></tr>
+<tr><td>quality_exception_two_hands</td><td>Target equal — auxiliary</td><td>8.2419 ± N/A (n=1)</td><td>0.5144 ± N/A (n=1)</td><td>0.6744 ± N/A (n=1)</td><td>1 / 1</td></tr>
+</table></div><h3>Coverage and excluded values</h3><table><tr><th>Group</th><th>Clips with success</th><th>Scored hands</th><th>Failed targets</th><th>Pending/prepared</th><th>Excluded values per metric</th></tr>
+<tr><td>quality_pass</td><td>4</td><td>27</td><td>0</td><td>0</td><td>psnr: missing=0, nonfinite=0; ssim: missing=0, nonfinite=0; lpips: missing=0, nonfinite=0</td></tr>
+<tr><td>quality_exception</td><td>1</td><td>2</td><td>0</td><td>0</td><td>psnr: missing=0, nonfinite=0; ssim: missing=0, nonfinite=0; lpips: missing=0, nonfinite=0</td></tr>
+<tr><td>quality_unknown</td><td>0</td><td>0</td><td>0</td><td>0</td><td>psnr: missing=0, nonfinite=0; ssim: missing=0, nonfinite=0; lpips: missing=0, nonfinite=0</td></tr>
+<tr><td>quality_pass_single_hand</td><td>1</td><td>1</td><td>0</td><td>0</td><td>psnr: missing=0, nonfinite=0; ssim: missing=0, nonfinite=0; lpips: missing=0, nonfinite=0</td></tr>
+<tr><td>quality_pass_two_hands</td><td>4</td><td>26</td><td>0</td><td>0</td><td>psnr: missing=0, nonfinite=0; ssim: missing=0, nonfinite=0; lpips: missing=0, nonfinite=0</td></tr>
+<tr><td>quality_exception_single_hand</td><td>0</td><td>0</td><td>0</td><td>0</td><td>psnr: missing=0, nonfinite=0; ssim: missing=0, nonfinite=0; lpips: missing=0, nonfinite=0</td></tr>
+<tr><td>quality_exception_two_hands</td><td>1</td><td>2</td><td>0</td><td>0</td><td>psnr: missing=0, nonfinite=0; ssim: missing=0, nonfinite=0; lpips: missing=0, nonfinite=0</td></tr>
+</table><h2>Distribution metrics</h2>
+<p>Status: completed. </p>
+<p>FID: exploratory finite-sample estimate. KID is raw scale; negative estimates are possible. KID Std is over repeated image subsets, not clips. ROI counts are not independent sequence counts.</p>
+<div class='scroll'><table><tr><th>Group</th><th>Hand</th><th>Clips</th><th>Real / generated ROIs</th><th>FID ↓</th><th>KID mean ± subset Std ↓</th><th>Status</th></tr>
+<tr><td>quality_pass</td><td>overall</td><td>4</td><td>27 / 27</td><td>242.6780</td><td>0.1496 ± 0.0000</td><td>success</td></tr>
+<tr><td>quality_pass</td><td>left</td><td>4</td><td>13 / 13</td><td>278.9025</td><td>0.1502 ± 0.0000</td><td>success</td></tr>
+<tr><td>quality_pass</td><td>right</td><td>4</td><td>14 / 14</td><td>253.2604</td><td>0.1492 ± 0.0000</td><td>success</td></tr>
+<tr><td>quality_exception</td><td>overall</td><td>1</td><td>2 / 2</td><td>333.9581</td><td>0.2913 ± 0.0000</td><td>success</td></tr>
+<tr><td>quality_exception</td><td>left</td><td>1</td><td>1 / 1</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 1.</td></tr>
+<tr><td>quality_exception</td><td>right</td><td>1</td><td>1 / 1</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 1.</td></tr>
+<tr><td>quality_unknown</td><td>overall</td><td>0</td><td>0 / 0</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 0.</td></tr>
+<tr><td>quality_unknown</td><td>left</td><td>0</td><td>0 / 0</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 0.</td></tr>
+<tr><td>quality_unknown</td><td>right</td><td>0</td><td>0 / 0</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 0.</td></tr>
+<tr><td>quality_pass_single_hand</td><td>overall</td><td>1</td><td>1 / 1</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 1.</td></tr>
+<tr><td>quality_pass_single_hand</td><td>left</td><td>0</td><td>0 / 0</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 0.</td></tr>
+<tr><td>quality_pass_single_hand</td><td>right</td><td>1</td><td>1 / 1</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 1.</td></tr>
+<tr><td>quality_pass_two_hands</td><td>overall</td><td>4</td><td>26 / 26</td><td>244.9012</td><td>0.1503 ± 0.0000</td><td>success</td></tr>
+<tr><td>quality_pass_two_hands</td><td>left</td><td>4</td><td>13 / 13</td><td>278.9025</td><td>0.1502 ± 0.0000</td><td>success</td></tr>
+<tr><td>quality_pass_two_hands</td><td>right</td><td>4</td><td>13 / 13</td><td>256.9954</td><td>0.1488 ± 0.0000</td><td>success</td></tr>
+<tr><td>quality_exception_single_hand</td><td>overall</td><td>0</td><td>0 / 0</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 0.</td></tr>
+<tr><td>quality_exception_single_hand</td><td>left</td><td>0</td><td>0 / 0</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 0.</td></tr>
+<tr><td>quality_exception_single_hand</td><td>right</td><td>0</td><td>0 / 0</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 0.</td></tr>
+<tr><td>quality_exception_two_hands</td><td>overall</td><td>1</td><td>2 / 2</td><td>333.9581</td><td>0.2913 ± 0.0000</td><td>success</td></tr>
+<tr><td>quality_exception_two_hands</td><td>left</td><td>1</td><td>1 / 1</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 1.</td></tr>
+<tr><td>quality_exception_two_hands</td><td>right</td><td>1</td><td>1 / 1</td><td>N/A</td><td>N/A ± N/A</td><td>insufficient_samples: Need &gt;= 2 ROI pairs; got 1.</td></tr>
+</table></div><h2>Clip reports</h2>
+<details open><summary>5L334OJnp7w_10-5-rgb_front.mp4 — completed</summary>
+<div class='scroll'><a href='5L334OJnp7w_10-5-rgb_front_report/comparison_grid.png'><img src='5L334OJnp7w_10-5-rgb_front_report/comparison_grid.png' alt='Four-row hand comparison'></a></div>
+</details>
+<details open><summary>1mcmnmxg64U_3-8-rgb_front.mp4 — no_reference</summary>
+<p>No comparison grid available.</p>
+</details>
+<details open><summary>04-j8JucIXg_0-8-rgb_front.mp4 — completed</summary>
+<div class='scroll'><a href='04-j8JucIXg_0-8-rgb_front_report/comparison_grid.png'><img src='04-j8JucIXg_0-8-rgb_front_report/comparison_grid.png' alt='Four-row hand comparison'></a></div>
+</details>
+<details open><summary>-0daC3SWCPQ_4-5-rgb_front.mp4 — completed</summary>
+<div class='scroll'><a href='-0daC3SWCPQ_4-5-rgb_front_report/comparison_grid.png'><img src='-0daC3SWCPQ_4-5-rgb_front_report/comparison_grid.png' alt='Four-row hand comparison'></a></div>
+</details>
+<details open><summary>0GwSyviALiU_10-11-rgb_front.mp4 — completed</summary>
+<div class='scroll'><a href='0GwSyviALiU_10-11-rgb_front_report/comparison_grid.png'><img src='0GwSyviALiU_10-11-rgb_front_report/comparison_grid.png' alt='Four-row hand comparison'></a></div>
+</details></body></html>

@@ -1,0 +1,529 @@
+{
+  "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\3GgkyZLNZkA_10-2-rgb_front.mp4",
+  "reference_frame_idx": 13,
+  "fps": 24.0,
+  "config": {
+    "num_targets": 5,
+    "min_reference_gap_seconds": 0.3,
+    "min_target_gap_seconds": 0.3,
+    "min_shape_change": 0.25,
+    "min_wrist_displacement": 0.025,
+    "min_pair_distance_change": 0.025,
+    "min_hand_detail": 200.0,
+    "max_window_motion": 0.012,
+    "min_handedness_score": 0.7,
+    "edge_gap": 0.04,
+    "max_neighbor_wrist_jump": 0.08,
+    "max_neighbor_shape_jump": 0.5,
+    "crop_scale": 1.5
+  },
+  "scanned_frame_count": 78,
+  "eligible_candidate_count": 4,
+  "quality_pass_candidate_count": 2,
+  "quality_exception_candidate_count": 2,
+  "selected_target_count": 1,
+  "stage_counts": {
+    "detection_or_crop": 54,
+    "not_selected": 3,
+    "reference_gap": 7,
+    "selected": 1,
+    "stability": 13
+  },
+  "reason_counts": {
+    "a hand is too close to the source image border": 22,
+    "a handedness score is too low": 4,
+    "expected_one_or_two_hands": 5,
+    "hand_count_or_label_changed": 4,
+    "invalid_hand_labels_or_points: Handedness must be unique and known.": 20,
+    "invalid_stability_neighbor": 9,
+    "selected": 1,
+    "selection_limit_or_diversity": 3,
+    "target_crop_unusable: A hand touches or leaves its crop. Increase crop_scale or select a different frame.": 3,
+    "too_close_to_reference": 7
+  },
+  "frames": [
+    {
+      "frame_idx": 14,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 15,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 16,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 17,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 18,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 19,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 20,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 21,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 22,
+      "stage": "detection_or_crop",
+      "reason": "expected_one_or_two_hands"
+    },
+    {
+      "frame_idx": 23,
+      "stage": "stability",
+      "reason": "hand_count_or_label_changed"
+    },
+    {
+      "frame_idx": 24,
+      "stage": "detection_or_crop",
+      "reason": "expected_one_or_two_hands"
+    },
+    {
+      "frame_idx": 25,
+      "stage": "detection_or_crop",
+      "reason": "expected_one_or_two_hands"
+    },
+    {
+      "frame_idx": 26,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 27,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 28,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.5341235399246216,
+        "max_wrist_displacement": 0.15758101491088297,
+        "pair_distance_change": 0.22859934202269008,
+        "shape_by_hand": {
+          "Left": 1.2476527690887451,
+          "Right": 1.5341235399246216
+        },
+        "wrist_by_hand": {
+          "Left": 0.15758101491088297,
+          "Right": 0.13337862330134048
+        }
+      },
+      "target_window_motion": 0.004159088668296241,
+      "minimum_hand_detail": 944.0828832096254,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 29,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.5607430934906006,
+        "max_wrist_displacement": 0.15519611730216004,
+        "pair_distance_change": 0.22800187601666055,
+        "shape_by_hand": {
+          "Left": 1.2589114904403687,
+          "Right": 1.5607430934906006
+        },
+        "wrist_by_hand": {
+          "Left": 0.15519611730216004,
+          "Right": 0.13390169697634657
+        }
+      },
+      "target_window_motion": 0.004159088668296241,
+      "minimum_hand_detail": 403.527665259565,
+      "stage": "selected",
+      "reason": "selected",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 30,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.6281185150146484,
+        "max_wrist_displacement": 0.15796213014751292,
+        "pair_distance_change": 0.23362992599833263,
+        "shape_by_hand": {
+          "Left": 1.2735528945922852,
+          "Right": 1.6281185150146484
+        },
+        "wrist_by_hand": {
+          "Left": 0.15796213014751292,
+          "Right": 0.13833191613864734
+        }
+      },
+      "target_window_motion": 0.007156614761303096,
+      "minimum_hand_detail": 68.6472854708234,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 31,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.6696170568466187,
+        "max_wrist_displacement": 0.16695129006276385,
+        "pair_distance_change": 0.24385693897584618,
+        "shape_by_hand": {
+          "Left": 1.3007811307907104,
+          "Right": 1.6696170568466187
+        },
+        "wrist_by_hand": {
+          "Left": 0.16695129006276385,
+          "Right": 0.15147147199565117
+        }
+      },
+      "target_window_motion": 0.015504550977542093,
+      "minimum_hand_detail": 34.20916580159835,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable",
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 32,
+      "stage": "stability",
+      "reason": "hand_count_or_label_changed"
+    },
+    {
+      "frame_idx": 33,
+      "stage": "stability",
+      "reason": "hand_count_or_label_changed"
+    },
+    {
+      "frame_idx": 34,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 35,
+      "stage": "detection_or_crop",
+      "reason": "target_crop_unusable: A hand touches or leaves its crop. Increase crop_scale or select a different frame."
+    },
+    {
+      "frame_idx": 36,
+      "stage": "detection_or_crop",
+      "reason": "target_crop_unusable: A hand touches or leaves its crop. Increase crop_scale or select a different frame."
+    },
+    {
+      "frame_idx": 37,
+      "stage": "detection_or_crop",
+      "reason": "target_crop_unusable: A hand touches or leaves its crop. Increase crop_scale or select a different frame."
+    },
+    {
+      "frame_idx": 38,
+      "stage": "detection_or_crop",
+      "reason": "a handedness score is too low"
+    },
+    {
+      "frame_idx": 39,
+      "stage": "detection_or_crop",
+      "reason": "expected_one_or_two_hands"
+    },
+    {
+      "frame_idx": 40,
+      "stage": "detection_or_crop",
+      "reason": "expected_one_or_two_hands"
+    },
+    {
+      "frame_idx": 41,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 42,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 43,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 44,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 45,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 46,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 47,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 48,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 49,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 50,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 51,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 52,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 53,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 54,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 55,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 56,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 57,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 58,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 59,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 60,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 61,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 62,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 63,
+      "stage": "detection_or_crop",
+      "reason": "a hand is too close to the source image border"
+    },
+    {
+      "frame_idx": 64,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 65,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 66,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 67,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 68,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 69,
+      "stage": "detection_or_crop",
+      "reason": "a handedness score is too low"
+    },
+    {
+      "frame_idx": 70,
+      "stage": "stability",
+      "reason": "hand_count_or_label_changed"
+    },
+    {
+      "frame_idx": 71,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 72,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 73,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 74,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 75,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 76,
+      "stage": "detection_or_crop",
+      "reason": "a handedness score is too low"
+    },
+    {
+      "frame_idx": 77,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 78,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 79,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 80,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 81,
+      "stage": "stability",
+      "reason": "invalid_stability_neighbor"
+    },
+    {
+      "frame_idx": 82,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 83,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 84,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 85,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 86,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 87,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 88,
+      "stage": "detection_or_crop",
+      "reason": "a handedness score is too low"
+    },
+    {
+      "frame_idx": 89,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 90,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    },
+    {
+      "frame_idx": 91,
+      "stage": "detection_or_crop",
+      "reason": "invalid_hand_labels_or_points: Handedness must be unique and known."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\1mcmnmxg64U_3-8-rgb_front.mp4",
+  "frame_index_base": 0,
+  "decoded_frame_count": 27,
+  "reason": "no_reference_passing_detection_detail_and_motion",
+  "thresholds": {
+    "min_detail": 200.0,
+    "max_motion": 0.012
+  },
+  "rejection_counts": {
+    "invalid_hand_or_crop: Handedness must be unique and known.": 1,
+    "a hand is too close to the source image border": 11,
+    "expected_two_hands": 5,
+    "detail_below_threshold": 4,
+    "motion_above_threshold": 3,
+    "a handedness score is too low": 3
+  }
+}
