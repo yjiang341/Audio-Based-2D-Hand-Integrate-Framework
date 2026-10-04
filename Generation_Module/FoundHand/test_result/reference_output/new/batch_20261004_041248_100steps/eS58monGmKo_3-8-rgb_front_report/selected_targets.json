@@ -1,0 +1,2179 @@
+{
+  "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\eS58monGmKo_3-8-rgb_front.mp4",
+  "reference_frame_idx": 0,
+  "reference_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_256.png",
+  "reference_image_kind": "hand_only",
+  "frame_index_base": 0,
+  "fps": 24.0,
+  "requested_target_count": 5,
+  "selected_target_count": 5,
+  "shortfall": 0,
+  "scanned_frame_count": 279,
+  "eligible_candidate_count": 78,
+  "quality_pass_selected_count": 5,
+  "quality_exception_selected_count": 0,
+  "single_hand_selected_count": 0,
+  "two_hand_selected_count": 5,
+  "selection_diagnostics": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\selection_diagnostics.json",
+  "selection_stage_counts": {
+    "detection_or_crop": 144,
+    "not_selected": 73,
+    "pose_threshold": 1,
+    "reference_gap": 7,
+    "selected": 5,
+    "stability": 49
+  },
+  "selection_reason_counts": {
+    "a handedness score is too low": 7,
+    "hand_count_or_label_changed": 15,
+    "insufficient_shape_or_position_change": 1,
+    "invalid_hand_labels_or_points: Handedness must be unique and known.": 137,
+    "invalid_stability_neighbor": 18,
+    "neighbor_shape_jump": 16,
+    "selected": 5,
+    "selection_limit_or_diversity": 73,
+    "too_close_to_reference": 7
+  },
+  "selection_config": {
+    "num_targets": 5,
+    "min_reference_gap_seconds": 0.3,
+    "min_target_gap_seconds": 0.3,
+    "min_shape_change": 0.25,
+    "min_wrist_displacement": 0.025,
+    "min_pair_distance_change": 0.025,
+    "min_hand_detail": 200.0,
+    "max_window_motion": 0.012,
+    "min_handedness_score": 0.7,
+    "edge_gap": 0.04,
+    "max_neighbor_wrist_jump": 0.08,
+    "max_neighbor_shape_jump": 0.5,
+    "crop_scale": 1.5
+  },
+  "ground_truth_dir": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame",
+  "generated_image_dir": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image",
+  "targets": [
+    {
+      "target_frame_idx": 22,
+      "target_timestamp_ms": 917,
+      "hands": [
+        {
+          "handedness": "Right",
+          "handedness_score": 0.989526093006134,
+          "landmarks_xy": [
+            [
+              0.47551003098487854,
+              0.570181667804718
+            ],
+            [
+              0.4869444668292999,
+              0.5481197237968445
+            ],
+            [
+              0.4945705533027649,
+              0.5199283361434937
+            ],
+            [
+              0.5019747018814087,
+              0.49646490812301636
+            ],
+            [
+              0.5091819763183594,
+              0.475928395986557
+            ],
+            [
+              0.4784926772117615,
+              0.4844251871109009
+            ],
+            [
+              0.47793206572532654,
+              0.44799473881721497
+            ],
+            [
+              0.4814465641975403,
+              0.4291141629219055
+            ],
+            [
+              0.48690858483314514,
+              0.4158111810684204
+            ],
+            [
+              0.47030898928642273,
+              0.485865980386734
+            ],
+            [
+              0.4685851037502289,
+              0.4466666281223297
+            ],
+            [
+              0.4747002124786377,
+              0.42764782905578613
+            ],
+            [
+              0.4829707443714142,
+              0.4165489077568054
+            ],
+            [
+              0.46286389231681824,
+              0.4950436055660248
+            ],
+            [
+              0.45830094814300537,
+              0.46005740761756897
+            ],
+            [
+              0.46347010135650635,
+              0.44127386808395386
+            ],
+            [
+              0.47175469994544983,
+              0.4277690351009369
+            ],
+            [
+              0.4566657543182373,
+              0.5105257630348206
+            ],
+            [
+              0.44719576835632324,
+              0.489776074886322
+            ],
+            [
+              0.44520774483680725,
+              0.4726058542728424
+            ],
+            [
+              0.4462917745113373,
+              0.4582049250602722
+            ]
+          ]
+        },
+        {
+          "handedness": "Left",
+          "handedness_score": 0.9986065030097961,
+          "landmarks_xy": [
+            [
+              0.556591272354126,
+              0.5983132123947144
+            ],
+            [
+              0.5296645760536194,
+              0.6074327826499939
+            ],
+            [
+              0.5092756152153015,
+              0.6009302139282227
+            ],
+            [
+              0.49533334374427795,
+              0.60002201795578
+            ],
+            [
+              0.4841160774230957,
+              0.6066545248031616
+            ],
+            [
+              0.5071548819541931,
+              0.5562271475791931
+            ],
+            [
+              0.48604822158813477,
+              0.5511273145675659
+            ],
+            [
+              0.4708038866519928,
+              0.5564006567001343
+            ],
+            [
+              0.4581734538078308,
+              0.5650737881660461
+            ],
+            [
+              0.5117095708847046,
+              0.5513157844543457
+            ],
+            [
+              0.48663827776908875,
+              0.5425698161125183
+            ],
+            [
+              0.4708890914916992,
+              0.5491446852684021
+            ],
+            [
+              0.45889878273010254,
+              0.5585144758224487
+            ],
+            [
+              0.5182580947875977,
+              0.5560253262519836
+            ],
+            [
+              0.49554339051246643,
+              0.5518469214439392
+            ],
+            [
+              0.48196178674697876,
+              0.5603731274604797
+            ],
+            [
+              0.47147709131240845,
+              0.5702855587005615
+            ],
+            [
+              0.5254420638084412,
+              0.5717459917068481
+            ],
+            [
+              0.5147580504417419,
+              0.5715228915214539
+            ],
+            [
+              0.508025586605072,
+              0.5750959515571594
+            ],
+            [
+              0.5020186901092529,
+              0.5795286893844604
+            ]
+          ]
+        }
+      ],
+      "hand_count": 2,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.4375641345977783,
+        "max_wrist_displacement": 0.06676337150200194,
+        "pair_distance_change": 0.006118561426869845,
+        "shape_by_hand": {
+          "Left": 1.4375641345977783,
+          "Right": 1.0411837100982666
+        },
+        "wrist_by_hand": {
+          "Left": 0.004230041386968126,
+          "Right": 0.06676337150200194
+        }
+      },
+      "minimum_hand_detail": 967.7592336765437,
+      "per_hand_detail": {
+        "Right": {
+          "laplacian_variance": 967.7592336765437,
+          "gray_contrast": 37.926442433419325,
+          "roi_source_xyxy": [
+            533,
+            277,
+            689,
+            433
+          ]
+        },
+        "Left": {
+          "laplacian_variance": 2460.634468286856,
+          "gray_contrast": 67.5328624534759,
+          "roi_source_xyxy": [
+            561,
+            325,
+            738,
+            503
+          ]
+        }
+      },
+      "target_window_motion": 0.010539716956886002,
+      "quality_exception": false,
+      "quality_failures": [],
+      "crop_xy_side_source_pixels": {
+        "x0": 534,
+        "y0": 261,
+        "side": 214
+      },
+      "ground_truth_full": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000022_full.png",
+      "ground_truth_crop": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000022_256.png",
+      "keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000022_keypoints.png",
+      "target_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000022_42x2.npy",
+      "target_heatmaps_42x32x32": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000022_heatmap_42x32x32.npy",
+      "status": "success",
+      "generation_wall_seconds": 5.16394850006327,
+      "generated_raw_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000022_raw.png",
+      "metrics": {
+        "psnr": 9.99800684478435,
+        "ssim": 0.5312028331903181,
+        "lpips": 0.6020404398441315
+      },
+      "metrics_by_hand": {
+        "right": {
+          "psnr": 10.08589186818985,
+          "ssim": 0.5420348263937826,
+          "lpips": 0.6343801021575928
+        },
+        "left": {
+          "psnr": 9.910121821378846,
+          "ssim": 0.5203708399868536,
+          "lpips": 0.5697007775306702
+        }
+      },
+      "orientation_status": "not_evaluated",
+      "metrics_by_hand_non_finite": {
+        "right": [],
+        "left": []
+      },
+      "metric_non_finite": [],
+      "seed": 42,
+      "ground_truth_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000022_hands.png",
+      "ground_truth_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000022_mask.png",
+      "generated_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000022_256.png",
+      "generated_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000022_mask.png",
+      "display_status": "success"
+    },
+    {
+      "target_frame_idx": 53,
+      "target_timestamp_ms": 2208,
+      "hands": [
+        {
+          "handedness": "Right",
+          "handedness_score": 0.986639142036438,
+          "landmarks_xy": [
+            [
+              0.6066485643386841,
+              0.6463118195533752
+            ],
+            [
+              0.6193034052848816,
+              0.605477511882782
+            ],
+            [
+              0.6422005295753479,
+              0.5937486886978149
+            ],
+            [
+              0.6616156101226807,
+              0.6018818020820618
+            ],
+            [
+              0.6739735007286072,
+              0.6136394739151001
+            ],
+            [
+              0.6429315209388733,
+              0.6009679436683655
+            ],
+            [
+              0.6695231199264526,
+              0.6116005182266235
+            ],
+            [
+              0.685040295124054,
+              0.6237977743148804
+            ],
+            [
+              0.6964698433876038,
+              0.6361970901489258
+            ],
+            [
+              0.6437534093856812,
+              0.6313347220420837
+            ],
+            [
+              0.6746161580085754,
+              0.6286655068397522
+            ],
+            [
+              0.6768854856491089,
+              0.6179326176643372
+            ],
+            [
+              0.6730356812477112,
+              0.6119722723960876
+            ],
+            [
+              0.6439945697784424,
+              0.6560889482498169
+            ],
+            [
+              0.671912431716919,
+              0.6484522819519043
+            ],
+            [
+              0.6693652868270874,
+              0.63716721534729
+            ],
+            [
+              0.6623768210411072,
+              0.6336727738380432
+            ],
+            [
+              0.6438814997673035,
+              0.6749411225318909
+            ],
+            [
+              0.6659876704216003,
+              0.6653867363929749
+            ],
+            [
+              0.6636853814125061,
+              0.6542938351631165
+            ],
+            [
+              0.657451868057251,
+              0.652077853679657
+            ]
+          ]
+        },
+        {
+          "handedness": "Left",
+          "handedness_score": 0.9235212206840515,
+          "landmarks_xy": [
+            [
+              0.6312000751495361,
+              0.5443670749664307
+            ],
+            [
+              0.6445645093917847,
+              0.5723855495452881
+            ],
+            [
+              0.6680194735527039,
+              0.5782909393310547
+            ],
+            [
+              0.6868783831596375,
+              0.5686842203140259
+            ],
+            [
+              0.7013965249061584,
+              0.5640860795974731
+            ],
+            [
+              0.6549685001373291,
+              0.5666404366493225
+            ],
+            [
+              0.6742593050003052,
+              0.5553041100502014
+            ],
+            [
+              0.6867973804473877,
+              0.5418809652328491
+            ],
+            [
+              0.696079432964325,
+              0.5270462036132812
+            ],
+            [
+              0.6518898606300354,
+              0.5398870706558228
+            ],
+            [
+              0.6831995844841003,
+              0.5366845726966858
+            ],
+            [
+              0.683371901512146,
+              0.5433821082115173
+            ],
+            [
+              0.6761766672134399,
+              0.5466872453689575
+            ],
+            [
+              0.6513339281082153,
+              0.5177016258239746
+            ],
+            [
+              0.6800863146781921,
+              0.5211951732635498
+            ],
+            [
+              0.6764312982559204,
+              0.5319228172302246
+            ],
+            [
+              0.6682449579238892,
+              0.5362426042556763
+            ],
+            [
+              0.6529321670532227,
+              0.5011600852012634
+            ],
+            [
+              0.6774213314056396,
+              0.5067475438117981
+            ],
+            [
+              0.6775866150856018,
+              0.5181551575660706
+            ],
+            [
+              0.6736448407173157,
+              0.5232651233673096
+            ]
+          ]
+        }
+      ],
+      "hand_count": 2,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.8773744106292725,
+        "max_wrist_displacement": 0.09654370736467453,
+        "pair_distance_change": 0.011515361392956917,
+        "shape_by_hand": {
+          "Left": 1.8773744106292725,
+          "Right": 1.0809404850006104
+        },
+        "wrist_by_hand": {
+          "Left": 0.07344670163521824,
+          "Right": 0.09654370736467453
+        }
+      },
+      "minimum_hand_detail": 709.2051878544423,
+      "per_hand_detail": {
+        "Right": {
+          "laplacian_variance": 3881.275913119211,
+          "gray_contrast": 45.596034089084604,
+          "roi_source_xyxy": [
+            753,
+            376,
+            915,
+            538
+          ]
+        },
+        "Left": {
+          "laplacian_variance": 709.2051878544423,
+          "gray_contrast": 50.10785223990755,
+          "roi_source_xyxy": [
+            789,
+            325,
+            916,
+            452
+          ]
+        }
+      },
+      "target_window_motion": 0.004412986257822755,
+      "quality_exception": false,
+      "quality_failures": [],
+      "crop_xy_side_source_pixels": {
+        "x0": 736,
+        "y0": 322,
+        "side": 202
+      },
+      "ground_truth_full": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000053_full.png",
+      "ground_truth_crop": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000053_256.png",
+      "keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000053_keypoints.png",
+      "target_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000053_42x2.npy",
+      "target_heatmaps_42x32x32": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000053_heatmap_42x32x32.npy",
+      "status": "success",
+      "generation_wall_seconds": 5.143988599884324,
+      "generated_raw_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000053_raw.png",
+      "metrics": {
+        "psnr": 10.873957138082588,
+        "ssim": 0.5432903377044116,
+        "lpips": 0.5242574512958527
+      },
+      "metrics_by_hand": {
+        "right": {
+          "psnr": 10.596364872417784,
+          "ssim": 0.5459891633652062,
+          "lpips": 0.5148347616195679
+        },
+        "left": {
+          "psnr": 11.151549403747392,
+          "ssim": 0.540591512043617,
+          "lpips": 0.5336801409721375
+        }
+      },
+      "orientation_status": "not_evaluated",
+      "metrics_by_hand_non_finite": {
+        "right": [],
+        "left": []
+      },
+      "metric_non_finite": [],
+      "seed": 42,
+      "ground_truth_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000053_hands.png",
+      "ground_truth_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000053_mask.png",
+      "generated_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000053_256.png",
+      "generated_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000053_mask.png",
+      "display_status": "success"
+    },
+    {
+      "target_frame_idx": 135,
+      "target_timestamp_ms": 5625,
+      "hands": [
+        {
+          "handedness": "Right",
+          "handedness_score": 0.9994826316833496,
+          "landmarks_xy": [
+            [
+              0.5182390213012695,
+              0.6079948544502258
+            ],
+            [
+              0.5348067879676819,
+              0.5858102440834045
+            ],
+            [
+              0.5462210774421692,
+              0.5599599480628967
+            ],
+            [
+              0.5541229844093323,
+              0.5408908128738403
+            ],
+            [
+              0.5577680468559265,
+              0.5250425934791565
+            ],
+            [
+              0.5279712677001953,
+              0.5164581537246704
+            ],
+            [
+              0.5387812256813049,
+              0.5236796140670776
+            ],
+            [
+              0.546581506729126,
+              0.5431897640228271
+            ],
+            [
+              0.5508590936660767,
+              0.5589718818664551
+            ],
+            [
+              0.5161887407302856,
+              0.5242608189582825
+            ],
+            [
+              0.5291432738304138,
+              0.532727837562561
+            ],
+            [
+              0.5385624766349792,
+              0.5533409714698792
+            ],
+            [
+              0.543860137462616,
+              0.5699709057807922
+            ],
+            [
+              0.5069652795791626,
+              0.5406702756881714
+            ],
+            [
+              0.5193969011306763,
+              0.5495156645774841
+            ],
+            [
+              0.5299515724182129,
+              0.5690934658050537
+            ],
+            [
+              0.53642338514328,
+              0.5837141871452332
+            ],
+            [
+              0.5009368658065796,
+              0.5619884133338928
+            ],
+            [
+              0.5126593708992004,
+              0.5714228749275208
+            ],
+            [
+              0.5227640867233276,
+              0.5845845341682434
+            ],
+            [
+              0.5296017527580261,
+              0.5942144393920898
+            ]
+          ]
+        },
+        {
+          "handedness": "Left",
+          "handedness_score": 0.9976902008056641,
+          "landmarks_xy": [
+            [
+              0.6203722953796387,
+              0.5921401381492615
+            ],
+            [
+              0.5987771153450012,
+              0.5797444581985474
+            ],
+            [
+              0.5797688961029053,
+              0.5585473775863647
+            ],
+            [
+              0.5666853189468384,
+              0.5404577851295471
+            ],
+            [
+              0.5556195974349976,
+              0.5249254107475281
+            ],
+            [
+              0.5835252404212952,
+              0.5359060764312744
+            ],
+            [
+              0.5639201402664185,
+              0.5549628734588623
+            ],
+            [
+              0.5527801513671875,
+              0.5714861750602722
+            ],
+            [
+              0.5454123020172119,
+              0.5845867395401001
+            ],
+            [
+              0.5925146341323853,
+              0.5460028052330017
+            ],
+            [
+              0.570702075958252,
+              0.5673115849494934
+            ],
+            [
+              0.5577501654624939,
+              0.5837717652320862
+            ],
+            [
+              0.5481123924255371,
+              0.598763108253479
+            ],
+            [
+              0.6006645560264587,
+              0.5632961392402649
+            ],
+            [
+              0.5791608691215515,
+              0.5844107866287231
+            ],
+            [
+              0.5665773153305054,
+              0.597795844078064
+            ],
+            [
+              0.5568925738334656,
+              0.6079098582267761
+            ],
+            [
+              0.6076257228851318,
+              0.5853878855705261
+            ],
+            [
+              0.5902453660964966,
+              0.5980333685874939
+            ],
+            [
+              0.5802121162414551,
+              0.6041415333747864
+            ],
+            [
+              0.5722692012786865,
+              0.6090266704559326
+            ]
+          ]
+        }
+      ],
+      "hand_count": 2,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.6174932718276978,
+        "max_wrist_displacement": 0.05790491766556034,
+        "pair_distance_change": 0.023472479201317283,
+        "shape_by_hand": {
+          "Left": 1.6174932718276978,
+          "Right": 0.7864075899124146
+        },
+        "wrist_by_hand": {
+          "Left": 0.05790491766556034,
+          "Right": 0.04748767954942352
+        }
+      },
+      "minimum_hand_detail": 882.271752700342,
+      "per_hand_detail": {
+        "Right": {
+          "laplacian_variance": 2018.1148855051629,
+          "gray_contrast": 56.09947100564635,
+          "roi_source_xyxy": [
+            626,
+            353,
+            729,
+            456
+          ]
+        },
+        "Left": {
+          "laplacian_variance": 882.271752700342,
+          "gray_contrast": 28.69504571944828,
+          "roi_source_xyxy": [
+            678,
+            341,
+            814,
+            476
+          ]
+        }
+      },
+      "target_window_motion": 0.006792791076973037,
+      "quality_exception": false,
+      "quality_failures": [],
+      "crop_xy_side_source_pixels": {
+        "x0": 603,
+        "y0": 290,
+        "side": 230
+      },
+      "ground_truth_full": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000135_full.png",
+      "ground_truth_crop": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000135_256.png",
+      "keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000135_keypoints.png",
+      "target_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000135_42x2.npy",
+      "target_heatmaps_42x32x32": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000135_heatmap_42x32x32.npy",
+      "status": "success",
+      "generation_wall_seconds": 5.1597239000257105,
+      "generated_raw_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000135_raw.png",
+      "metrics": {
+        "psnr": 9.064909426929836,
+        "ssim": 0.5090245438538549,
+        "lpips": 0.5784837603569031
+      },
+      "metrics_by_hand": {
+        "right": {
+          "psnr": 9.066060107167742,
+          "ssim": 0.46655285699897425,
+          "lpips": 0.560861349105835
+        },
+        "left": {
+          "psnr": 9.06375874669193,
+          "ssim": 0.5514962307087354,
+          "lpips": 0.5961061716079712
+        }
+      },
+      "orientation_status": "not_evaluated",
+      "metrics_by_hand_non_finite": {
+        "right": [],
+        "left": []
+      },
+      "metric_non_finite": [],
+      "seed": 42,
+      "ground_truth_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000135_hands.png",
+      "ground_truth_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000135_mask.png",
+      "generated_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000135_256.png",
+      "generated_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000135_mask.png",
+      "display_status": "success"
+    },
+    {
+      "target_frame_idx": 154,
+      "target_timestamp_ms": 6417,
+      "hands": [
+        {
+          "handedness": "Left",
+          "handedness_score": 0.9963216185569763,
+          "landmarks_xy": [
+            [
+              0.588101863861084,
+              0.6967755556106567
+            ],
+            [
+              0.570203959941864,
+              0.6676154136657715
+            ],
+            [
+              0.5468414425849915,
+              0.636756420135498
+            ],
+            [
+              0.5320268273353577,
+              0.609042763710022
+            ],
+            [
+              0.5247352123260498,
+              0.5816152095794678
+            ],
+            [
+              0.5494308471679688,
+              0.6419966220855713
+            ],
+            [
+              0.5293724536895752,
+              0.6158496141433716
+            ],
+            [
+              0.5169956684112549,
+              0.5974995493888855
+            ],
+            [
+              0.5070242881774902,
+              0.5806605815887451
+            ],
+            [
+              0.5518916845321655,
+              0.6624777317047119
+            ],
+            [
+              0.5281571745872498,
+              0.6623891592025757
+            ],
+            [
+              0.5132270455360413,
+              0.6631026864051819
+            ],
+            [
+              0.5012757778167725,
+              0.6638115644454956
+            ],
+            [
+              0.5554676055908203,
+              0.6874731183052063
+            ],
+            [
+              0.5323721170425415,
+              0.688869297504425
+            ],
+            [
+              0.5180783867835999,
+              0.6876650452613831
+            ],
+            [
+              0.5069714784622192,
+              0.6874700784683228
+            ],
+            [
+              0.5594849586486816,
+              0.7135109901428223
+            ],
+            [
+              0.5397591590881348,
+              0.7120643854141235
+            ],
+            [
+              0.5273759365081787,
+              0.7099899053573608
+            ],
+            [
+              0.5166900157928467,
+              0.7081577181816101
+            ]
+          ]
+        },
+        {
+          "handedness": "Right",
+          "handedness_score": 0.9960592985153198,
+          "landmarks_xy": [
+            [
+              0.46178698539733887,
+              0.7094388008117676
+            ],
+            [
+              0.4803466498851776,
+              0.6975985765457153
+            ],
+            [
+              0.4944242537021637,
+              0.6856293678283691
+            ],
+            [
+              0.5020686984062195,
+              0.6778159141540527
+            ],
+            [
+              0.5062593221664429,
+              0.6737211346626282
+            ],
+            [
+              0.4947918653488159,
+              0.6343981623649597
+            ],
+            [
+              0.5051947832107544,
+              0.6169415712356567
+            ],
+            [
+              0.5093353390693665,
+              0.6011797189712524
+            ],
+            [
+              0.5123003125190735,
+              0.5865306258201599
+            ],
+            [
+              0.4816752076148987,
+              0.627564013004303
+            ],
+            [
+              0.4926178455352783,
+              0.6658605337142944
+            ],
+            [
+              0.49203699827194214,
+              0.69200599193573
+            ],
+            [
+              0.4903252124786377,
+              0.7075169086456299
+            ],
+            [
+              0.4683534801006317,
+              0.6381280422210693
+            ],
+            [
+              0.4800240099430084,
+              0.6799522042274475
+            ],
+            [
+              0.48224061727523804,
+              0.699312686920166
+            ],
+            [
+              0.4826294183731079,
+              0.7114185690879822
+            ],
+            [
+              0.45590221881866455,
+              0.6565821766853333
+            ],
+            [
+              0.4648105502128601,
+              0.6911073923110962
+            ],
+            [
+              0.4702991843223572,
+              0.7098212242126465
+            ],
+            [
+              0.4743942618370056,
+              0.721001148223877
+            ]
+          ]
+        }
+      ],
+      "hand_count": 2,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.5849627256393433,
+        "max_wrist_displacement": 0.05332315529877041,
+        "pair_distance_change": 0.04438475568145453,
+        "shape_by_hand": {
+          "Left": 1.5849627256393433,
+          "Right": 0.8210076689720154
+        },
+        "wrist_by_hand": {
+          "Left": 0.05332315529877041,
+          "Right": 0.03364034196367493
+        }
+      },
+      "minimum_hand_detail": 724.012766136843,
+      "per_hand_detail": {
+        "Left": {
+          "laplacian_variance": 4321.4194019689985,
+          "gray_contrast": 43.744992202346026,
+          "roi_source_xyxy": [
+            619,
+            388,
+            775,
+            544
+          ]
+        },
+        "Right": {
+          "laplacian_variance": 724.012766136843,
+          "gray_contrast": 50.40087790342714,
+          "roi_source_xyxy": [
+            551,
+            402,
+            688,
+            539
+          ]
+        }
+      },
+      "target_window_motion": 0.009895014826974417,
+      "quality_exception": false,
+      "quality_failures": [],
+      "crop_xy_side_source_pixels": {
+        "x0": 541,
+        "y0": 342,
+        "side": 254
+      },
+      "ground_truth_full": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000154_full.png",
+      "ground_truth_crop": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000154_256.png",
+      "keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000154_keypoints.png",
+      "target_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000154_42x2.npy",
+      "target_heatmaps_42x32x32": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000154_heatmap_42x32x32.npy",
+      "status": "success",
+      "generation_wall_seconds": 5.1262878000270575,
+      "generated_raw_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000154_raw.png",
+      "metrics": {
+        "psnr": 9.011907363879196,
+        "ssim": 0.4966576741228505,
+        "lpips": 0.5675494372844696
+      },
+      "metrics_by_hand": {
+        "right": {
+          "psnr": 9.014438804094887,
+          "ssim": 0.5034519700260326,
+          "lpips": 0.5804871320724487
+        },
+        "left": {
+          "psnr": 9.009375923663505,
+          "ssim": 0.4898633782196684,
+          "lpips": 0.5546117424964905
+        }
+      },
+      "orientation_status": "not_evaluated",
+      "metrics_by_hand_non_finite": {
+        "right": [],
+        "left": []
+      },
+      "metric_non_finite": [],
+      "seed": 42,
+      "ground_truth_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000154_hands.png",
+      "ground_truth_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000154_mask.png",
+      "generated_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000154_256.png",
+      "generated_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000154_mask.png",
+      "display_status": "success"
+    },
+    {
+      "target_frame_idx": 170,
+      "target_timestamp_ms": 7083,
+      "hands": [
+        {
+          "handedness": "Left",
+          "handedness_score": 0.9991068840026855,
+          "landmarks_xy": [
+            [
+              0.5973038673400879,
+              0.7195855379104614
+            ],
+            [
+              0.5807778835296631,
+              0.690613865852356
+            ],
+            [
+              0.5610161423683167,
+              0.6635821461677551
+            ],
+            [
+              0.5469930171966553,
+              0.638999342918396
+            ],
+            [
+              0.5404112339019775,
+              0.6160305738449097
+            ],
+            [
+              0.5673787593841553,
+              0.6703936457633972
+            ],
+            [
+              0.5563496947288513,
+              0.6576073169708252
+            ],
+            [
+              0.5451235771179199,
+              0.6535952687263489
+            ],
+            [
+              0.5351629257202148,
+              0.6521496772766113
+            ],
+            [
+              0.5707951784133911,
+              0.6907419562339783
+            ],
+            [
+              0.5428518652915955,
+              0.6941388249397278
+            ],
+            [
+              0.5241968631744385,
+              0.7000943422317505
+            ],
+            [
+              0.5095862746238708,
+              0.7073907256126404
+            ],
+            [
+              0.5734124183654785,
+              0.7155358195304871
+            ],
+            [
+              0.5456980466842651,
+              0.7244794964790344
+            ],
+            [
+              0.528093695640564,
+              0.7304539084434509
+            ],
+            [
+              0.5137319564819336,
+              0.7345173954963684
+            ],
+            [
+              0.5757413506507874,
+              0.7406996488571167
+            ],
+            [
+              0.556054413318634,
+              0.7532402276992798
+            ],
+            [
+              0.5433713793754578,
+              0.7584719657897949
+            ],
+            [
+              0.5318166613578796,
+              0.7617398500442505
+            ]
+          ]
+        },
+        {
+          "handedness": "Right",
+          "handedness_score": 0.9861215353012085,
+          "landmarks_xy": [
+            [
+              0.46502187848091125,
+              0.5577483177185059
+            ],
+            [
+              0.4671027660369873,
+              0.5190129280090332
+            ],
+            [
+              0.4796769320964813,
+              0.4891473948955536
+            ],
+            [
+              0.49309849739074707,
+              0.47342902421951294
+            ],
+            [
+              0.5057498216629028,
+              0.4672991633415222
+            ],
+            [
+              0.48248371481895447,
+              0.47420188784599304
+            ],
+            [
+              0.4932708442211151,
+              0.4314918518066406
+            ],
+            [
+              0.5062136054039001,
+              0.41753044724464417
+            ],
+            [
+              0.5170329809188843,
+              0.4168041944503784
+            ],
+            [
+              0.4886135160923004,
+              0.48484867811203003
+            ],
+            [
+              0.5033665299415588,
+              0.441346675157547
+            ],
+            [
+              0.5178924202919006,
+              0.42928916215896606
+            ],
+            [
+              0.5289818048477173,
+              0.430248498916626
+            ],
+            [
+              0.4957437813282013,
+              0.5026639103889465
+            ],
+            [
+              0.5186505317687988,
+              0.47737589478492737
+            ],
+            [
+              0.535163164138794,
+              0.4693608582019806
+            ],
+            [
+              0.5467931032180786,
+              0.46772098541259766
+            ],
+            [
+              0.5027387738227844,
+              0.5243338942527771
+            ],
+            [
+              0.5240545868873596,
+              0.5129778981208801
+            ],
+            [
+              0.5366793274879456,
+              0.510468602180481
+            ],
+            [
+              0.5459057688713074,
+              0.5094026327133179
+            ]
+          ]
+        }
+      ],
+      "hand_count": 2,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.6497832536697388,
+        "max_wrist_displacement": 0.07575590296912676,
+        "pair_distance_change": 0.07407361287394615,
+        "shape_by_hand": {
+          "Left": 1.6497832536697388,
+          "Right": 0.4434610903263092
+        },
+        "wrist_by_hand": {
+          "Left": 0.06707653100664045,
+          "Right": 0.07575590296912676
+        }
+      },
+      "minimum_hand_detail": 2824.894662029531,
+      "per_hand_detail": {
+        "Left": {
+          "laplacian_variance": 3237.9739172168715,
+          "gray_contrast": 58.672498397034026,
+          "roi_source_xyxy": [
+            629,
+            417,
+            788,
+            575
+          ]
+        },
+        "Right": {
+          "laplacian_variance": 2824.894662029531,
+          "gray_contrast": 47.66941554487203,
+          "roi_source_xyxy": [
+            574,
+            277,
+            721,
+            425
+          ]
+        }
+      },
+      "target_window_motion": 0.0068328970879676125,
+      "quality_exception": false,
+      "quality_failures": [],
+      "crop_xy_side_source_pixels": {
+        "x0": 493,
+        "y0": 238,
+        "side": 373
+      },
+      "ground_truth_full": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000170_full.png",
+      "ground_truth_crop": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000170_256.png",
+      "keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000170_keypoints.png",
+      "target_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000170_42x2.npy",
+      "target_heatmaps_42x32x32": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000170_heatmap_42x32x32.npy",
+      "status": "success",
+      "generation_wall_seconds": 5.138375799986534,
+      "generated_raw_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000170_raw.png",
+      "metrics": {
+        "psnr": 6.4614725991716675,
+        "ssim": 0.4537586195205535,
+        "lpips": 0.6626929640769958
+      },
+      "metrics_by_hand": {
+        "right": {
+          "psnr": 8.024134009635365,
+          "ssim": 0.5325764179570979,
+          "lpips": 0.6484275460243225
+        },
+        "left": {
+          "psnr": 4.8988111887079695,
+          "ssim": 0.3749408210840092,
+          "lpips": 0.6769583821296692
+        }
+      },
+      "orientation_status": "not_evaluated",
+      "metrics_by_hand_non_finite": {
+        "right": [],
+        "left": []
+      },
+      "metric_non_finite": [],
+      "seed": 42,
+      "ground_truth_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000170_hands.png",
+      "ground_truth_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\ground_truth_frame\\frame_000170_mask.png",
+      "generated_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000170_256.png",
+      "generated_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\generated_image\\frame_000170_mask.png",
+      "display_status": "success"
+    }
+  ],
+  "reference_info": {
+    "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\eS58monGmKo_3-8-rgb_front.mp4",
+    "reference_frame_idx": 0,
+    "reference_timestamp_ms": 0,
+    "first_target_frame_idx": 1,
+    "fps": 24.0,
+    "image_width": 1280,
+    "image_height": 720,
+    "detected_hands": 2,
+    "hands": [
+      {
+        "handedness": "Right",
+        "handedness_score": 0.9848966002464294,
+        "landmarks_xy": [
+          [
+            0.4999554455280304,
+            0.6992402672767639
+          ],
+          [
+            0.4966467022895813,
+            0.6603760123252869
+          ],
+          [
+            0.5029538869857788,
+            0.6201732158660889
+          ],
+          [
+            0.5149397253990173,
+            0.5954918265342712
+          ],
+          [
+            0.5260004997253418,
+            0.5865630507469177
+          ],
+          [
+            0.5059399008750916,
+            0.61655592918396
+          ],
+          [
+            0.5262920260429382,
+            0.5908709764480591
+          ],
+          [
+            0.5380675196647644,
+            0.5776030421257019
+          ],
+          [
+            0.547200620174408,
+            0.567109227180481
+          ],
+          [
+            0.5156797170639038,
+            0.6338961720466614
+          ],
+          [
+            0.5375882983207703,
+            0.6068663597106934
+          ],
+          [
+            0.5334323048591614,
+            0.6147868633270264
+          ],
+          [
+            0.5254067778587341,
+            0.6251491904258728
+          ],
+          [
+            0.5254614949226379,
+            0.6529910564422607
+          ],
+          [
+            0.5435663461685181,
+            0.6256749033927917
+          ],
+          [
+            0.5395087599754333,
+            0.6335257291793823
+          ],
+          [
+            0.5330199599266052,
+            0.6436883807182312
+          ],
+          [
+            0.5343397855758667,
+            0.6718345880508423
+          ],
+          [
+            0.5470832586288452,
+            0.646034836769104
+          ],
+          [
+            0.5427680015563965,
+            0.6524280309677124
+          ],
+          [
+            0.5372328162193298,
+            0.662929117679596
+          ]
+        ]
+      },
+      {
+        "handedness": "Left",
+        "handedness_score": 0.9882266521453857,
+        "landmarks_xy": [
+          [
+            0.5543947219848633,
+            0.6060070991516113
+          ],
+          [
+            0.5426831245422363,
+            0.5833606123924255
+          ],
+          [
+            0.535891056060791,
+            0.5544602870941162
+          ],
+          [
+            0.5340683460235596,
+            0.5329124331474304
+          ],
+          [
+            0.5329256057739258,
+            0.5122334361076355
+          ],
+          [
+            0.5419665575027466,
+            0.516269862651825
+          ],
+          [
+            0.5398615598678589,
+            0.47824162244796753
+          ],
+          [
+            0.536617636680603,
+            0.45641571283340454
+          ],
+          [
+            0.5340731143951416,
+            0.4377795159816742
+          ],
+          [
+            0.5480642318725586,
+            0.5174935460090637
+          ],
+          [
+            0.5447542667388916,
+            0.4721507132053375
+          ],
+          [
+            0.5400674939155579,
+            0.4478971064090729
+          ],
+          [
+            0.5360738635063171,
+            0.4289693832397461
+          ],
+          [
+            0.5545910596847534,
+            0.5255656242370605
+          ],
+          [
+            0.5511314868927002,
+            0.48222219944000244
+          ],
+          [
+            0.5465881824493408,
+            0.45892804861068726
+          ],
+          [
+            0.5422607660293579,
+            0.43990984559059143
+          ],
+          [
+            0.5621365904808044,
+            0.5409586429595947
+          ],
+          [
+            0.56122887134552,
+            0.5105413794517517
+          ],
+          [
+            0.5587028861045837,
+            0.4901583790779114
+          ],
+          [
+            0.5558172464370728,
+            0.4716653823852539
+          ]
+        ]
+      }
+    ],
+    "crop_xy_side": {
+      "x0": 532,
+      "y0": 260,
+      "side": 292
+    },
+    "reference_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_full.png",
+    "reference_crop": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_crop_256.png",
+    "bbox_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_bbox_preview.png",
+    "minimum_hand_detail": 2312.5365524668973,
+    "per_hand_detail": {
+      "Right": {
+        "laplacian_variance": 2312.5365524668973,
+        "gray_contrast": 45.628585857204406,
+        "roi_source_xyxy": [
+          601,
+          389,
+          735,
+          523
+        ]
+      },
+      "Left": {
+        "laplacian_variance": 5211.692894847988,
+        "gray_contrast": 31.903416555910336,
+        "roi_source_xyxy": [
+          611,
+          283,
+          791,
+          462
+        ]
+      }
+    },
+    "reference_five_frame_motion": 0.00794801770645076,
+    "quality_thresholds": {
+      "min_detail": 200.0,
+      "max_motion": 0.012
+    },
+    "reference_quality_exception": false,
+    "skipped_reference_frames": 0,
+    "last_decoded_frame_idx": 4,
+    "last_decoded_timestamp_ms": 167,
+    "hand_only_reference_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_256.png",
+    "hand_only_reference_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_mask.png"
+  },
+  "metric_space": "unsegmented_RGB_in_matching_target_hand_boxes_resized_256x256",
+  "display_space": "segmented_hands_on_white",
+  "selection_seconds": 5.129484400036745,
+  "success_count": 5,
+  "failed_count": 0,
+  "prepared_count": 0,
+  "display_failed_count": 0,
+  "metric_summary": {
+    "quality_pass": {
+      "selected_target_count": 5,
+      "successful_target_count": 5,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 10,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 5,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 9.082050674569528,
+          "std": 1.6524639054602437,
+          "std_ddof": 1,
+          "min": 6.4614725991716675,
+          "max": 10.873957138082588
+        },
+        "ssim": {
+          "valid_count": 5,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5067868016783977,
+          "std": 0.03481467203363926,
+          "std_ddof": 1,
+          "min": 0.4537586195205535,
+          "max": 0.5432903377044116
+        },
+        "lpips": {
+          "valid_count": 5,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5870048105716705,
+          "std": 0.05085055966078461,
+          "std_ddof": 1,
+          "min": 0.5242574512958527,
+          "max": 0.6626929640769958
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 9.082050674569528,
+          "std": null,
+          "std_ddof": 1,
+          "min": 9.082050674569528,
+          "max": 9.082050674569528
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5067868016783977,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5067868016783977,
+          "max": 0.5067868016783977
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5870048105716705,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5870048105716705,
+          "max": 0.5870048105716705
+        }
+      }
+    },
+    "quality_exception": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_unknown": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_pass_single_hand": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_pass_two_hands": {
+      "selected_target_count": 5,
+      "successful_target_count": 5,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 10,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 5,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 9.082050674569528,
+          "std": 1.6524639054602437,
+          "std_ddof": 1,
+          "min": 6.4614725991716675,
+          "max": 10.873957138082588
+        },
+        "ssim": {
+          "valid_count": 5,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5067868016783977,
+          "std": 0.03481467203363926,
+          "std_ddof": 1,
+          "min": 0.4537586195205535,
+          "max": 0.5432903377044116
+        },
+        "lpips": {
+          "valid_count": 5,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5870048105716705,
+          "std": 0.05085055966078461,
+          "std_ddof": 1,
+          "min": 0.5242574512958527,
+          "max": 0.6626929640769958
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 9.082050674569528,
+          "std": null,
+          "std_ddof": 1,
+          "min": 9.082050674569528,
+          "max": 9.082050674569528
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5067868016783977,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5067868016783977,
+          "max": 0.5067868016783977
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5870048105716705,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5870048105716705,
+          "max": 0.5870048105716705
+        }
+      }
+    },
+    "quality_exception_single_hand": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_exception_two_hands": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    }
+  },
+  "reference_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_mask.png",
+  "reference_keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_keypoints.png",
+  "reference_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\eS58monGmKo_3-8-rgb_front_report\\reference_42x2.npy",
+  "seed": 42,
+  "prepare_only": false,
+  "processing_seconds": 39.45916679990478
+}

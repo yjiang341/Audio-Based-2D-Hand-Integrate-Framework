@@ -1,0 +1,22 @@
+﻿group,hand,status,clip_count,real_count,generated_count,fid,kid_mean,kid_subset_std,kid_subset_size,kid_subsets,reason
+quality_pass,overall,success,5,24,24,240.94300464586638,0.10810106994902526,3.610465930540069e-16,24,100,
+quality_pass,left,success,4,11,11,261.8383834559603,0.09311096789872897,4.925187593944632e-16,11,100,
+quality_pass,right,success,5,13,13,273.34840654460777,0.15086073548749165,3.1563349657991457e-16,13,100,
+quality_exception,overall,success,4,11,11,265.771328452678,0.13863786656052607,4.648375332529558e-16,11,100,
+quality_exception,left,success,4,5,5,280.1573784586624,0.1483198217969563,5.035323478374461e-16,5,100,
+quality_exception,right,success,4,6,6,311.6768719712947,0.13150355296048008,3.0247210793422136e-16,6,100,
+quality_unknown,overall,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_unknown,left,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_unknown,right,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_pass_single_hand,overall,success,2,2,2,447.5989110628747,0.19479430126231453,5.756321699418259e-16,2,100,
+quality_pass_single_hand,left,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_pass_single_hand,right,success,2,2,2,447.5989110628747,0.19479430126231453,5.756321699418259e-16,2,100,
+quality_pass_two_hands,overall,success,4,22,22,239.69300490850176,0.10288788095608319,2.323690425182334e-16,22,100,
+quality_pass_two_hands,left,success,4,11,11,261.8383834559603,0.09311096789872897,4.925187593944632e-16,11,100,
+quality_pass_two_hands,right,success,4,11,11,273.0621489537648,0.13881394556078674,3.1480255910393994e-16,11,100,
+quality_exception_single_hand,overall,insufficient_samples,1,1,1,,,,,,Need >= 2 ROI pairs; got 1.
+quality_exception_single_hand,left,insufficient_samples,0,0,0,,,,,,Need >= 2 ROI pairs; got 0.
+quality_exception_single_hand,right,insufficient_samples,1,1,1,,,,,,Need >= 2 ROI pairs; got 1.
+quality_exception_two_hands,overall,success,4,10,10,268.3021724808024,0.1358271174874717,4.471663566795476e-16,10,100,
+quality_exception_two_hands,left,success,4,5,5,280.1573784586624,0.1483198217969563,5.035323478374461e-16,5,100,
+quality_exception_two_hands,right,success,4,5,5,325.8150335705638,0.11645892193680174,6.404745667978754e-16,5,100,

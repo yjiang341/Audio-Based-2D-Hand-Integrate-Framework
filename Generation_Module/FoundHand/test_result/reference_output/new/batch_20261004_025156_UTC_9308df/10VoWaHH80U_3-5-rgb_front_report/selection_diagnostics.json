@@ -1,0 +1,3624 @@
+{
+  "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\10VoWaHH80U_3-5-rgb_front.mp4",
+  "reference_frame_idx": 18,
+  "fps": 24.0,
+  "config": {
+    "num_targets": 5,
+    "min_reference_gap_seconds": 0.3,
+    "min_target_gap_seconds": 0.3,
+    "min_shape_change": 0.25,
+    "min_wrist_displacement": 0.025,
+    "min_pair_distance_change": 0.025,
+    "min_hand_detail": 200.0,
+    "max_window_motion": 0.012,
+    "min_handedness_score": 0.7,
+    "edge_gap": 0.04,
+    "max_neighbor_wrist_jump": 0.08,
+    "max_neighbor_shape_jump": 0.5,
+    "crop_scale": 1.5
+  },
+  "scanned_frame_count": 139,
+  "eligible_candidate_count": 127,
+  "quality_pass_candidate_count": 104,
+  "quality_exception_candidate_count": 23,
+  "selected_target_count": 5,
+  "stage_counts": {
+    "not_selected": 122,
+    "pose_threshold": 2,
+    "reference_gap": 7,
+    "selected": 5,
+    "stability": 3
+  },
+  "reason_counts": {
+    "insufficient_shape_or_position_change": 2,
+    "missing_stability_window": 1,
+    "neighbor_shape_jump": 2,
+    "selected": 5,
+    "selection_limit_or_diversity": 122,
+    "too_close_to_reference": 7
+  },
+  "frames": [
+    {
+      "frame_idx": 19,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 20,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 21,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 22,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 23,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 24,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 25,
+      "stage": "reference_gap",
+      "reason": "too_close_to_reference"
+    },
+    {
+      "frame_idx": 26,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.32070666551589966,
+        "max_wrist_displacement": 0.032558892023895315,
+        "pair_distance_change": 0.025502335254234752,
+        "shape_by_hand": {
+          "Left": 0.03958337381482124,
+          "Right": 0.32070666551589966
+        },
+        "wrist_by_hand": {
+          "Left": 0.00046690108497993903,
+          "Right": 0.032558892023895315
+        }
+      },
+      "target_window_motion": 0.0032239382625862114,
+      "minimum_hand_detail": 645.5388363523136,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 27,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.3357037305831909,
+        "max_wrist_displacement": 0.034388839467168045,
+        "pair_distance_change": 0.026526850644304083,
+        "shape_by_hand": {
+          "Left": 0.04207723215222359,
+          "Right": 0.3357037305831909
+        },
+        "wrist_by_hand": {
+          "Left": 0.0008130268926458402,
+          "Right": 0.034388839467168045
+        }
+      },
+      "target_window_motion": 0.004717271078192481,
+      "minimum_hand_detail": 932.4736842105264,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 28,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.3215267062187195,
+        "max_wrist_displacement": 0.03529949095281199,
+        "pair_distance_change": 0.025480183794773587,
+        "shape_by_hand": {
+          "Left": 0.06530868262052536,
+          "Right": 0.3215267062187195
+        },
+        "wrist_by_hand": {
+          "Left": 0.001501839015307365,
+          "Right": 0.03529949095281199
+        }
+      },
+      "target_window_motion": 0.004717271078192481,
+      "minimum_hand_detail": 652.166930032864,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 29,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.52045077085495,
+        "max_wrist_displacement": 0.03557311654410634,
+        "pair_distance_change": 0.026177476828243486,
+        "shape_by_hand": {
+          "Left": 0.09610235691070557,
+          "Right": 0.52045077085495
+        },
+        "wrist_by_hand": {
+          "Left": 0.0015280938715888622,
+          "Right": 0.03557311654410634
+        }
+      },
+      "target_window_motion": 0.009297942359607465,
+      "minimum_hand_detail": 430.1749196737024,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 30,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5246712565422058,
+        "max_wrist_displacement": 0.03872455387459365,
+        "pair_distance_change": 0.02884560557435451,
+        "shape_by_hand": {
+          "Left": 0.11583802103996277,
+          "Right": 0.5246712565422058
+        },
+        "wrist_by_hand": {
+          "Left": 0.0013236126109495122,
+          "Right": 0.03872455387459365
+        }
+      },
+      "target_window_motion": 0.004114873740921293,
+      "minimum_hand_detail": 1183.9879181596207,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 31,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5751800537109375,
+        "max_wrist_displacement": 0.038746606629146335,
+        "pair_distance_change": 0.030194351003797748,
+        "shape_by_hand": {
+          "Left": 0.14711152017116547,
+          "Right": 0.5751800537109375
+        },
+        "wrist_by_hand": {
+          "Left": 0.0014190204020967832,
+          "Right": 0.038746606629146335
+        }
+      },
+      "target_window_motion": 0.004114873740921293,
+      "minimum_hand_detail": 2966.1509858078775,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 32,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.586301326751709,
+        "max_wrist_displacement": 0.04181097064536802,
+        "pair_distance_change": 0.03412012574381941,
+        "shape_by_hand": {
+          "Left": 0.1756424903869629,
+          "Right": 0.586301326751709
+        },
+        "wrist_by_hand": {
+          "Left": 0.0018075997103997985,
+          "Right": 0.04181097064536802
+        }
+      },
+      "target_window_motion": 0.004114873740921293,
+      "minimum_hand_detail": 2297.6069932183013,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 33,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5821220874786377,
+        "max_wrist_displacement": 0.044662256739155554,
+        "pair_distance_change": 0.03806005165072011,
+        "shape_by_hand": {
+          "Left": 0.19859305024147034,
+          "Right": 0.5821220874786377
+        },
+        "wrist_by_hand": {
+          "Left": 0.0023031887763583668,
+          "Right": 0.044662256739155554
+        }
+      },
+      "target_window_motion": 0.004528518076949265,
+      "minimum_hand_detail": 2436.287684380683,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 34,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5812182426452637,
+        "max_wrist_displacement": 0.045634016953139483,
+        "pair_distance_change": 0.040174435470263434,
+        "shape_by_hand": {
+          "Left": 0.21697227656841278,
+          "Right": 0.5812182426452637
+        },
+        "wrist_by_hand": {
+          "Left": 0.002829804464017801,
+          "Right": 0.045634016953139483
+        }
+      },
+      "target_window_motion": 0.004528518076949265,
+      "minimum_hand_detail": 3091.6038612121874,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 35,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5562387704849243,
+        "max_wrist_displacement": 0.04485193640328457,
+        "pair_distance_change": 0.03921929404587056,
+        "shape_by_hand": {
+          "Left": 0.22011977434158325,
+          "Right": 0.5562387704849243
+        },
+        "wrist_by_hand": {
+          "Left": 0.002808471216297988,
+          "Right": 0.04485193640328457
+        }
+      },
+      "target_window_motion": 0.005017599585160797,
+      "minimum_hand_detail": 1613.5494083980427,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 36,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6094269156455994,
+        "max_wrist_displacement": 0.044528610293072535,
+        "pair_distance_change": 0.03877981823335253,
+        "shape_by_hand": {
+          "Left": 0.2160969078540802,
+          "Right": 0.6094269156455994
+        },
+        "wrist_by_hand": {
+          "Left": 0.002880914450066122,
+          "Right": 0.044528610293072535
+        }
+      },
+      "target_window_motion": 0.007986088578142913,
+      "minimum_hand_detail": 2077.9843626644874,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 37,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6600324511528015,
+        "max_wrist_displacement": 0.04467917164347205,
+        "pair_distance_change": 0.03998829879284936,
+        "shape_by_hand": {
+          "Left": 0.21198418736457825,
+          "Right": 0.6600324511528015
+        },
+        "wrist_by_hand": {
+          "Left": 0.0027334886039468665,
+          "Right": 0.04467917164347205
+        }
+      },
+      "target_window_motion": 0.007986088578142913,
+      "minimum_hand_detail": 3158.1697323435083,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 38,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6447180509567261,
+        "max_wrist_displacement": 0.04045471065539228,
+        "pair_distance_change": 0.03760872085919402,
+        "shape_by_hand": {
+          "Left": 0.2202141284942627,
+          "Right": 0.6447180509567261
+        },
+        "wrist_by_hand": {
+          "Left": 0.0024038411586584777,
+          "Right": 0.04045471065539228
+        }
+      },
+      "target_window_motion": 0.004523171777690536,
+      "minimum_hand_detail": 3751.4470203100464,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 39,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5950385928153992,
+        "max_wrist_displacement": 0.038624628142244787,
+        "pair_distance_change": 0.03617427878920871,
+        "shape_by_hand": {
+          "Left": 0.22581665217876434,
+          "Right": 0.5950385928153992
+        },
+        "wrist_by_hand": {
+          "Left": 0.0018716229933811606,
+          "Right": 0.038624628142244787
+        }
+      },
+      "target_window_motion": 0.0035875716802233506,
+      "minimum_hand_detail": 6148.890584208497,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 40,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5706294775009155,
+        "max_wrist_displacement": 0.03745566071611139,
+        "pair_distance_change": 0.03472800252019606,
+        "shape_by_hand": {
+          "Left": 0.2381962090730667,
+          "Right": 0.5706294775009155
+        },
+        "wrist_by_hand": {
+          "Left": 0.0013612133367111193,
+          "Right": 0.03745566071611139
+        }
+      },
+      "target_window_motion": 0.0035875716802233506,
+      "minimum_hand_detail": 7067.730187866168,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 41,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5660102367401123,
+        "max_wrist_displacement": 0.039920441765766396,
+        "pair_distance_change": 0.03632090233325936,
+        "shape_by_hand": {
+          "Left": 0.2577188313007355,
+          "Right": 0.5660102367401123
+        },
+        "wrist_by_hand": {
+          "Left": 0.0010568048014587131,
+          "Right": 0.039920441765766396
+        }
+      },
+      "target_window_motion": 0.003315952988592977,
+      "minimum_hand_detail": 4547.692428869245,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 42,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5656338930130005,
+        "max_wrist_displacement": 0.04206805017700387,
+        "pair_distance_change": 0.03826157590386682,
+        "shape_by_hand": {
+          "Left": 0.2594928741455078,
+          "Right": 0.5656338930130005
+        },
+        "wrist_by_hand": {
+          "Left": 0.0008898779986551196,
+          "Right": 0.04206805017700387
+        }
+      },
+      "target_window_motion": 0.0027076057585781843,
+      "minimum_hand_detail": 4753.068914843705,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 43,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5854361057281494,
+        "max_wrist_displacement": 0.04564473422820242,
+        "pair_distance_change": 0.04309331624387718,
+        "shape_by_hand": {
+          "Left": 0.2546035051345825,
+          "Right": 0.5854361057281494
+        },
+        "wrist_by_hand": {
+          "Left": 0.0018923094642006649,
+          "Right": 0.04564473422820242
+        }
+      },
+      "target_window_motion": 0.0018026308061785195,
+      "minimum_hand_detail": 5528.3523494411265,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 44,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5996010303497314,
+        "max_wrist_displacement": 0.046300675100014045,
+        "pair_distance_change": 0.044206021872176524,
+        "shape_by_hand": {
+          "Left": 0.2374611496925354,
+          "Right": 0.5996010303497314
+        },
+        "wrist_by_hand": {
+          "Left": 0.0023727888866688944,
+          "Right": 0.046300675100014045
+        }
+      },
+      "target_window_motion": 0.0018026308061785195,
+      "minimum_hand_detail": 5828.108471670379,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 45,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.608456552028656,
+        "max_wrist_displacement": 0.04660514857270624,
+        "pair_distance_change": 0.04559434277492538,
+        "shape_by_hand": {
+          "Left": 0.23629145324230194,
+          "Right": 0.608456552028656
+        },
+        "wrist_by_hand": {
+          "Left": 0.003517951059093278,
+          "Right": 0.04660514857270624
+        }
+      },
+      "target_window_motion": 0.0018026308061785195,
+      "minimum_hand_detail": 5192.075138957704,
+      "stage": "selected",
+      "reason": "selected",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 46,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6538015007972717,
+        "max_wrist_displacement": 0.045245587163291585,
+        "pair_distance_change": 0.04514645107021057,
+        "shape_by_hand": {
+          "Left": 0.23178651928901672,
+          "Right": 0.6538015007972717
+        },
+        "wrist_by_hand": {
+          "Left": 0.003954211818967301,
+          "Right": 0.045245587163291585
+        }
+      },
+      "target_window_motion": 0.003215560034353961,
+      "minimum_hand_detail": 4372.364234502586,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 47,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6514317989349365,
+        "max_wrist_displacement": 0.04345193974886147,
+        "pair_distance_change": 0.04407725872156571,
+        "shape_by_hand": {
+          "Left": 0.23340335488319397,
+          "Right": 0.6514317989349365
+        },
+        "wrist_by_hand": {
+          "Left": 0.0041655867570429585,
+          "Right": 0.04345193974886147
+        }
+      },
+      "target_window_motion": 0.002765761130424984,
+      "minimum_hand_detail": 3707.284366932593,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 48,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6440603137016296,
+        "max_wrist_displacement": 0.042067169625320325,
+        "pair_distance_change": 0.042844964304149094,
+        "shape_by_hand": {
+          "Left": 0.23725785315036774,
+          "Right": 0.6440603137016296
+        },
+        "wrist_by_hand": {
+          "Left": 0.003886712272490381,
+          "Right": 0.042067169625320325
+        }
+      },
+      "target_window_motion": 0.002765761130424984,
+      "minimum_hand_detail": 4703.020257410443,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 49,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6299981474876404,
+        "max_wrist_displacement": 0.040263519247664956,
+        "pair_distance_change": 0.04080188698849038,
+        "shape_by_hand": {
+          "Left": 0.23695549368858337,
+          "Right": 0.6299981474876404
+        },
+        "wrist_by_hand": {
+          "Left": 0.0034139891401742694,
+          "Right": 0.040263519247664956
+        }
+      },
+      "target_window_motion": 0.0011337521434657564,
+      "minimum_hand_detail": 4451.441196844533,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 50,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6202159523963928,
+        "max_wrist_displacement": 0.0401154125324895,
+        "pair_distance_change": 0.03991347008223054,
+        "shape_by_hand": {
+          "Left": 0.23927472531795502,
+          "Right": 0.6202159523963928
+        },
+        "wrist_by_hand": {
+          "Left": 0.0027804471394694123,
+          "Right": 0.0401154125324895
+        }
+      },
+      "target_window_motion": 0.0011337521434657564,
+      "minimum_hand_detail": 5322.601211000825,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 51,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.610735297203064,
+        "max_wrist_displacement": 0.039679482304184006,
+        "pair_distance_change": 0.03829291211481189,
+        "shape_by_hand": {
+          "Left": 0.24039790034294128,
+          "Right": 0.610735297203064
+        },
+        "wrist_by_hand": {
+          "Left": 0.001882724373400461,
+          "Right": 0.039679482304184006
+        }
+      },
+      "target_window_motion": 0.0011337521434657564,
+      "minimum_hand_detail": 4834.419063629991,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 52,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.614920973777771,
+        "max_wrist_displacement": 0.0401206075276727,
+        "pair_distance_change": 0.038250385884242205,
+        "shape_by_hand": {
+          "Left": 0.2537238597869873,
+          "Right": 0.614920973777771
+        },
+        "wrist_by_hand": {
+          "Left": 0.001958726178869087,
+          "Right": 0.0401206075276727
+        }
+      },
+      "target_window_motion": 0.0015540254554937184,
+      "minimum_hand_detail": 4617.890239145044,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 53,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6203944087028503,
+        "max_wrist_displacement": 0.04121620343933617,
+        "pair_distance_change": 0.038618898062557715,
+        "shape_by_hand": {
+          "Left": 0.25143444538116455,
+          "Right": 0.6203944087028503
+        },
+        "wrist_by_hand": {
+          "Left": 0.0024412206100940005,
+          "Right": 0.04121620343933617
+        }
+      },
+      "target_window_motion": 0.0015540254554937184,
+      "minimum_hand_detail": 5060.79647441276,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 54,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5954413414001465,
+        "max_wrist_displacement": 0.042546646900749,
+        "pair_distance_change": 0.04016045054323026,
+        "shape_by_hand": {
+          "Left": 0.2584892809391022,
+          "Right": 0.5954413414001465
+        },
+        "wrist_by_hand": {
+          "Left": 0.003367954989107134,
+          "Right": 0.042546646900749
+        }
+      },
+      "target_window_motion": 0.0021974338692996066,
+      "minimum_hand_detail": 5467.947588191686,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 55,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.58951336145401,
+        "max_wrist_displacement": 0.043929305258748164,
+        "pair_distance_change": 0.04197754556841975,
+        "shape_by_hand": {
+          "Left": 0.2564169466495514,
+          "Right": 0.58951336145401
+        },
+        "wrist_by_hand": {
+          "Left": 0.003764904571055482,
+          "Right": 0.043929305258748164
+        }
+      },
+      "target_window_motion": 0.0023253554268819546,
+      "minimum_hand_detail": 4997.839855768748,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 56,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5871833562850952,
+        "max_wrist_displacement": 0.04537637636202384,
+        "pair_distance_change": 0.04367299458639942,
+        "shape_by_hand": {
+          "Left": 0.2526373267173767,
+          "Right": 0.5871833562850952
+        },
+        "wrist_by_hand": {
+          "Left": 0.004206304155227287,
+          "Right": 0.04537637636202384
+        }
+      },
+      "target_window_motion": 0.0017809882945460985,
+      "minimum_hand_detail": 5483.118723815542,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 57,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.573145866394043,
+        "max_wrist_displacement": 0.04592734196616853,
+        "pair_distance_change": 0.04430563070981921,
+        "shape_by_hand": {
+          "Left": 0.25360801815986633,
+          "Right": 0.573145866394043
+        },
+        "wrist_by_hand": {
+          "Left": 0.004422437708890756,
+          "Right": 0.04592734196616853
+        }
+      },
+      "target_window_motion": 0.0017809882945460985,
+      "minimum_hand_detail": 5738.451124909953,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 58,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.5866745114326477,
+        "max_wrist_displacement": 0.04545769362162647,
+        "pair_distance_change": 0.04415537066914032,
+        "shape_by_hand": {
+          "Left": 0.2524678707122803,
+          "Right": 0.5866745114326477
+        },
+        "wrist_by_hand": {
+          "Left": 0.00442749860826079,
+          "Right": 0.04545769362162647
+        }
+      },
+      "target_window_motion": 0.0017809882945460985,
+      "minimum_hand_detail": 5339.082405800722,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 59,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6332492828369141,
+        "max_wrist_displacement": 0.04464725878806165,
+        "pair_distance_change": 0.0434820785134168,
+        "shape_by_hand": {
+          "Left": 0.2412266582250595,
+          "Right": 0.6332492828369141
+        },
+        "wrist_by_hand": {
+          "Left": 0.00409643227991299,
+          "Right": 0.04464725878806165
+        }
+      },
+      "target_window_motion": 0.003888287539008481,
+      "minimum_hand_detail": 3824.37354031479,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 60,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6180541515350342,
+        "max_wrist_displacement": 0.04327867886700895,
+        "pair_distance_change": 0.043377555210330807,
+        "shape_by_hand": {
+          "Left": 0.23388957977294922,
+          "Right": 0.6180541515350342
+        },
+        "wrist_by_hand": {
+          "Left": 0.003861201923956076,
+          "Right": 0.04327867886700895
+        }
+      },
+      "target_window_motion": 0.003888287539008481,
+      "minimum_hand_detail": 3909.54489286934,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 61,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6556870341300964,
+        "max_wrist_displacement": 0.04088877328292941,
+        "pair_distance_change": 0.042351689121513846,
+        "shape_by_hand": {
+          "Left": 0.2373042106628418,
+          "Right": 0.6556870341300964
+        },
+        "wrist_by_hand": {
+          "Left": 0.002842845850050828,
+          "Right": 0.04088877328292941
+        }
+      },
+      "target_window_motion": 0.006890019954552493,
+      "minimum_hand_detail": 3934.5963262420382,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 62,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7339891195297241,
+        "max_wrist_displacement": 0.03921805244202178,
+        "pair_distance_change": 0.040259124281739965,
+        "shape_by_hand": {
+          "Left": 0.22269433736801147,
+          "Right": 0.7339891195297241
+        },
+        "wrist_by_hand": {
+          "Left": 0.002065912404017269,
+          "Right": 0.03921805244202178
+        }
+      },
+      "target_window_motion": 0.01035529463337344,
+      "minimum_hand_detail": 4964.835607829969,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 63,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7676386833190918,
+        "max_wrist_displacement": 0.03827182822686087,
+        "pair_distance_change": 0.0372392528017648,
+        "shape_by_hand": {
+          "Left": 0.21143119037151337,
+          "Right": 0.7676386833190918
+        },
+        "wrist_by_hand": {
+          "Left": 0.0020040288096769875,
+          "Right": 0.03827182822686087
+        }
+      },
+      "target_window_motion": 0.01035529463337344,
+      "minimum_hand_detail": 4347.506261408973,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 64,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7816163301467896,
+        "max_wrist_displacement": 0.03769378890531893,
+        "pair_distance_change": 0.03372578404945303,
+        "shape_by_hand": {
+          "Left": 0.2028636783361435,
+          "Right": 0.7816163301467896
+        },
+        "wrist_by_hand": {
+          "Left": 0.002540866299733767,
+          "Right": 0.03769378890531893
+        }
+      },
+      "target_window_motion": 0.01035529463337344,
+      "minimum_hand_detail": 3221.631973268593,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 65,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.702233076095581,
+        "max_wrist_displacement": 0.037728735637916316,
+        "pair_distance_change": 0.03160904170209653,
+        "shape_by_hand": {
+          "Left": 0.20408497750759125,
+          "Right": 0.702233076095581
+        },
+        "wrist_by_hand": {
+          "Left": 0.0027066946045715126,
+          "Right": 0.037728735637916316
+        }
+      },
+      "target_window_motion": 0.011465115058178738,
+      "minimum_hand_detail": 3183.392069884171,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 66,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6707531213760376,
+        "max_wrist_displacement": 0.03720838933538141,
+        "pair_distance_change": 0.02990652749066771,
+        "shape_by_hand": {
+          "Left": 0.20489639043807983,
+          "Right": 0.6707531213760376
+        },
+        "wrist_by_hand": {
+          "Left": 0.002527980114181838,
+          "Right": 0.03720838933538141
+        }
+      },
+      "target_window_motion": 0.006541596832984491,
+      "minimum_hand_detail": 239.75785899770312,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 67,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7411981225013733,
+        "max_wrist_displacement": 0.03709966847618739,
+        "pair_distance_change": 0.02940315323739632,
+        "shape_by_hand": {
+          "Left": 0.20107771456241608,
+          "Right": 0.7411981225013733
+        },
+        "wrist_by_hand": {
+          "Left": 0.002814711379574609,
+          "Right": 0.03709966847618739
+        }
+      },
+      "target_window_motion": 0.0040958600591168995,
+      "minimum_hand_detail": 470.76339951356346,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 68,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7833732962608337,
+        "max_wrist_displacement": 0.03670142534043842,
+        "pair_distance_change": 0.029289736102556686,
+        "shape_by_hand": {
+          "Left": 0.19731959700584412,
+          "Right": 0.7833732962608337
+        },
+        "wrist_by_hand": {
+          "Left": 0.003395284235329957,
+          "Right": 0.03670142534043842
+        }
+      },
+      "target_window_motion": 0.002094283833792797,
+      "minimum_hand_detail": 1153.6071998971704,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 69,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8054766654968262,
+        "max_wrist_displacement": 0.036167694132814,
+        "pair_distance_change": 0.030358647921461646,
+        "shape_by_hand": {
+          "Left": 0.19055013358592987,
+          "Right": 0.8054766654968262
+        },
+        "wrist_by_hand": {
+          "Left": 0.004463169068624639,
+          "Right": 0.036167694132814
+        }
+      },
+      "target_window_motion": 0.002094283833792797,
+      "minimum_hand_detail": 822.5762058072183,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 70,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8053481578826904,
+        "max_wrist_displacement": 0.03647694700107474,
+        "pair_distance_change": 0.03213838054129356,
+        "shape_by_hand": {
+          "Left": 0.18251687288284302,
+          "Right": 0.8053481578826904
+        },
+        "wrist_by_hand": {
+          "Left": 0.006096148918900722,
+          "Right": 0.03647694700107474
+        }
+      },
+      "target_window_motion": 0.002094283833792797,
+      "minimum_hand_detail": 990.4978162732557,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 71,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8017514944076538,
+        "max_wrist_displacement": 0.0368920141287245,
+        "pair_distance_change": 0.03367020799098315,
+        "shape_by_hand": {
+          "Left": 0.18541219830513,
+          "Right": 0.8017514944076538
+        },
+        "wrist_by_hand": {
+          "Left": 0.007642070390522334,
+          "Right": 0.0368920141287245
+        }
+      },
+      "target_window_motion": 0.00210303886150821,
+      "minimum_hand_detail": 789.0161207295997,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 72,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8088563680648804,
+        "max_wrist_displacement": 0.037623014888440595,
+        "pair_distance_change": 0.035773703100622486,
+        "shape_by_hand": {
+          "Left": 0.18191330134868622,
+          "Right": 0.8088563680648804
+        },
+        "wrist_by_hand": {
+          "Left": 0.01022639672120996,
+          "Right": 0.037623014888440595
+        }
+      },
+      "target_window_motion": 0.002360655905131552,
+      "minimum_hand_detail": 1193.6140894304808,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 73,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8029147386550903,
+        "max_wrist_displacement": 0.03784913224878458,
+        "pair_distance_change": 0.03606820737755812,
+        "shape_by_hand": {
+          "Left": 0.17317630350589752,
+          "Right": 0.8029147386550903
+        },
+        "wrist_by_hand": {
+          "Left": 0.01286652639140673,
+          "Right": 0.03784913224878458
+        }
+      },
+      "target_window_motion": 0.002936288465672195,
+      "minimum_hand_detail": 1164.9580746990932,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 74,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8029250502586365,
+        "max_wrist_displacement": 0.03778835600013632,
+        "pair_distance_change": 0.03636650400097749,
+        "shape_by_hand": {
+          "Left": 0.16595704853534698,
+          "Right": 0.8029250502586365
+        },
+        "wrist_by_hand": {
+          "Left": 0.016479527355182235,
+          "Right": 0.03778835600013632
+        }
+      },
+      "target_window_motion": 0.0025680358857367255,
+      "minimum_hand_detail": 1127.2465326431982,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 75,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8051244616508484,
+        "max_wrist_displacement": 0.03753220377514066,
+        "pair_distance_change": 0.03620891901709029,
+        "shape_by_hand": {
+          "Left": 0.16277340054512024,
+          "Right": 0.8051244616508484
+        },
+        "wrist_by_hand": {
+          "Left": 0.019375044936708333,
+          "Right": 0.03753220377514066
+        }
+      },
+      "target_window_motion": 0.0025680358857367255,
+      "minimum_hand_detail": 1270.656000515945,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 76,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8045859932899475,
+        "max_wrist_displacement": 0.036936413155057725,
+        "pair_distance_change": 0.03685068794204214,
+        "shape_by_hand": {
+          "Left": 0.15165996551513672,
+          "Right": 0.8045859932899475
+        },
+        "wrist_by_hand": {
+          "Left": 0.020749908204435112,
+          "Right": 0.036936413155057725
+        }
+      },
+      "target_window_motion": 0.0025680358857367255,
+      "minimum_hand_detail": 1233.0140885992284,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 77,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7982836365699768,
+        "max_wrist_displacement": 0.03653722712768301,
+        "pair_distance_change": 0.03862993223232684,
+        "shape_by_hand": {
+          "Left": 0.13368915021419525,
+          "Right": 0.7982836365699768
+        },
+        "wrist_by_hand": {
+          "Left": 0.020858119954101178,
+          "Right": 0.03653722712768301
+        }
+      },
+      "target_window_motion": 0.003279381847028122,
+      "minimum_hand_detail": 1131.8139400860157,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 78,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7923513650894165,
+        "max_wrist_displacement": 0.03628233988401446,
+        "pair_distance_change": 0.04114039287462773,
+        "shape_by_hand": {
+          "Left": 0.12888792157173157,
+          "Right": 0.7923513650894165
+        },
+        "wrist_by_hand": {
+          "Left": 0.021765075200672272,
+          "Right": 0.03628233988401446
+        }
+      },
+      "target_window_motion": 0.0021440926344083013,
+      "minimum_hand_detail": 1215.7047939000013,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 79,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7983280420303345,
+        "max_wrist_displacement": 0.03660019826179617,
+        "pair_distance_change": 0.04354585227428577,
+        "shape_by_hand": {
+          "Left": 0.12535595893859863,
+          "Right": 0.7983280420303345
+        },
+        "wrist_by_hand": {
+          "Left": 0.021873763591146397,
+          "Right": 0.03660019826179617
+        }
+      },
+      "target_window_motion": 0.0011581071730492425,
+      "minimum_hand_detail": 1156.1419295905791,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 80,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7987793684005737,
+        "max_wrist_displacement": 0.03718737817736295,
+        "pair_distance_change": 0.04512156704328304,
+        "shape_by_hand": {
+          "Left": 0.129122793674469,
+          "Right": 0.7987793684005737
+        },
+        "wrist_by_hand": {
+          "Left": 0.022690694766187812,
+          "Right": 0.03718737817736295
+        }
+      },
+      "target_window_motion": 0.0011581071730492425,
+      "minimum_hand_detail": 1178.265073736791,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 81,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7914374470710754,
+        "max_wrist_displacement": 0.03807872246340853,
+        "pair_distance_change": 0.04639543181215562,
+        "shape_by_hand": {
+          "Left": 0.13379235565662384,
+          "Right": 0.7914374470710754
+        },
+        "wrist_by_hand": {
+          "Left": 0.02323801608121149,
+          "Right": 0.03807872246340853
+        }
+      },
+      "target_window_motion": 0.0011581071730492425,
+      "minimum_hand_detail": 1084.0082125044516,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 82,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7898060083389282,
+        "max_wrist_displacement": 0.03906447020192323,
+        "pair_distance_change": 0.048560196694985625,
+        "shape_by_hand": {
+          "Left": 0.14929576218128204,
+          "Right": 0.7898060083389282
+        },
+        "wrist_by_hand": {
+          "Left": 0.02449216584336383,
+          "Right": 0.03906447020192323
+        }
+      },
+      "target_window_motion": 0.0011984015837853991,
+      "minimum_hand_detail": 987.7572155701945,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 83,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.793059229850769,
+        "max_wrist_displacement": 0.03986438517024207,
+        "pair_distance_change": 0.05009494373196817,
+        "shape_by_hand": {
+          "Left": 0.1601489782333374,
+          "Right": 0.793059229850769
+        },
+        "wrist_by_hand": {
+          "Left": 0.025042645715458892,
+          "Right": 0.03986438517024207
+        }
+      },
+      "target_window_motion": 0.0009762497971602151,
+      "minimum_hand_detail": 1135.1436890594205,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 84,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7869539260864258,
+        "max_wrist_displacement": 0.04009001160354124,
+        "pair_distance_change": 0.05173587647049534,
+        "shape_by_hand": {
+          "Left": 0.17433980107307434,
+          "Right": 0.7869539260864258
+        },
+        "wrist_by_hand": {
+          "Left": 0.02658786066773559,
+          "Right": 0.04009001160354124
+        }
+      },
+      "target_window_motion": 0.0009762497971602151,
+      "minimum_hand_detail": 1123.3501385345287,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 85,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.785468339920044,
+        "max_wrist_displacement": 0.04037233621426986,
+        "pair_distance_change": 0.05286050980773531,
+        "shape_by_hand": {
+          "Left": 0.1651037633419037,
+          "Right": 0.785468339920044
+        },
+        "wrist_by_hand": {
+          "Left": 0.027326233125616647,
+          "Right": 0.04037233621426986
+        }
+      },
+      "target_window_motion": 0.0009762497971602151,
+      "minimum_hand_detail": 962.3501403595322,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 86,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7774778008460999,
+        "max_wrist_displacement": 0.04042853047716654,
+        "pair_distance_change": 0.054089271628427346,
+        "shape_by_hand": {
+          "Left": 0.16231997311115265,
+          "Right": 0.7774778008460999
+        },
+        "wrist_by_hand": {
+          "Left": 0.02870060286880102,
+          "Right": 0.04042853047716654
+        }
+      },
+      "target_window_motion": 0.0009931174589870452,
+      "minimum_hand_detail": 971.602738615898,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 87,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7805799841880798,
+        "max_wrist_displacement": 0.04071735142937175,
+        "pair_distance_change": 0.05506061104780144,
+        "shape_by_hand": {
+          "Left": 0.15169093012809753,
+          "Right": 0.7805799841880798
+        },
+        "wrist_by_hand": {
+          "Left": 0.02908752611004579,
+          "Right": 0.04071735142937175
+        }
+      },
+      "target_window_motion": 0.0009931174589870452,
+      "minimum_hand_detail": 1027.563306469672,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 88,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7704338431358337,
+        "max_wrist_displacement": 0.040682877441336036,
+        "pair_distance_change": 0.05511241553976831,
+        "shape_by_hand": {
+          "Left": 0.14221294224262238,
+          "Right": 0.7704338431358337
+        },
+        "wrist_by_hand": {
+          "Left": 0.02956589944899803,
+          "Right": 0.040682877441336036
+        }
+      },
+      "target_window_motion": 0.0009931174589870452,
+      "minimum_hand_detail": 1171.2998378704137,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 89,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7563797831535339,
+        "max_wrist_displacement": 0.04097591672963001,
+        "pair_distance_change": 0.055430286905037984,
+        "shape_by_hand": {
+          "Left": 0.131282776594162,
+          "Right": 0.7563797831535339
+        },
+        "wrist_by_hand": {
+          "Left": 0.029958789142210708,
+          "Right": 0.04097591672963001
+        }
+      },
+      "target_window_motion": 0.0008194430119859146,
+      "minimum_hand_detail": 831.9651053704868,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 90,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7401543259620667,
+        "max_wrist_displacement": 0.04117497076256711,
+        "pair_distance_change": 0.05532109849627748,
+        "shape_by_hand": {
+          "Left": 0.12531515955924988,
+          "Right": 0.7401543259620667
+        },
+        "wrist_by_hand": {
+          "Left": 0.030006624657857618,
+          "Right": 0.04117497076256711
+        }
+      },
+      "target_window_motion": 0.0005297895298409358,
+      "minimum_hand_detail": 1036.2022960107436,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 91,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7385779023170471,
+        "max_wrist_displacement": 0.04164336711327001,
+        "pair_distance_change": 0.055739887837975996,
+        "shape_by_hand": {
+          "Left": 0.12286800146102905,
+          "Right": 0.7385779023170471
+        },
+        "wrist_by_hand": {
+          "Left": 0.030030422930791858,
+          "Right": 0.04164336711327001
+        }
+      },
+      "target_window_motion": 0.00031615146747067976,
+      "minimum_hand_detail": 1009.5064687455213,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 92,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7383545637130737,
+        "max_wrist_displacement": 0.041776036900258585,
+        "pair_distance_change": 0.0555780637380193,
+        "shape_by_hand": {
+          "Left": 0.11909988522529602,
+          "Right": 0.7383545637130737
+        },
+        "wrist_by_hand": {
+          "Left": 0.029753890739692507,
+          "Right": 0.041776036900258585
+        }
+      },
+      "target_window_motion": 0.00031615146747067976,
+      "minimum_hand_detail": 1129.4572608889916,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 93,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7429665923118591,
+        "max_wrist_displacement": 0.04164595162337365,
+        "pair_distance_change": 0.055258394904416246,
+        "shape_by_hand": {
+          "Left": 0.11852788925170898,
+          "Right": 0.7429665923118591
+        },
+        "wrist_by_hand": {
+          "Left": 0.029393698346162893,
+          "Right": 0.04164595162337365
+        }
+      },
+      "target_window_motion": 0.00031615146747067976,
+      "minimum_hand_detail": 933.3958093931337,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 94,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7383599877357483,
+        "max_wrist_displacement": 0.041638624082667754,
+        "pair_distance_change": 0.054839023723257205,
+        "shape_by_hand": {
+          "Left": 0.11871055513620377,
+          "Right": 0.7383599877357483
+        },
+        "wrist_by_hand": {
+          "Left": 0.029059519891013158,
+          "Right": 0.041638624082667754
+        }
+      },
+      "target_window_motion": 0.0003427454384467124,
+      "minimum_hand_detail": 964.9034805571004,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 95,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7431755065917969,
+        "max_wrist_displacement": 0.04122911040486883,
+        "pair_distance_change": 0.0541460009758279,
+        "shape_by_hand": {
+          "Left": 0.12044121325016022,
+          "Right": 0.7431755065917969
+        },
+        "wrist_by_hand": {
+          "Left": 0.028761825887035037,
+          "Right": 0.04122911040486883
+        }
+      },
+      "target_window_motion": 0.0005801942937923686,
+      "minimum_hand_detail": 787.095463983442,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 96,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7498094439506531,
+        "max_wrist_displacement": 0.04130267153666295,
+        "pair_distance_change": 0.05426391697649618,
+        "shape_by_hand": {
+          "Left": 0.120705246925354,
+          "Right": 0.7498094439506531
+        },
+        "wrist_by_hand": {
+          "Left": 0.028767618306664307,
+          "Right": 0.04130267153666295
+        }
+      },
+      "target_window_motion": 0.0007417870898943918,
+      "minimum_hand_detail": 943.5205064555386,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 97,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7761973738670349,
+        "max_wrist_displacement": 0.04246076843537551,
+        "pair_distance_change": 0.05641951788782301,
+        "shape_by_hand": {
+          "Left": 0.12098158895969391,
+          "Right": 0.7761973738670349
+        },
+        "wrist_by_hand": {
+          "Left": 0.028643486494259324,
+          "Right": 0.04246076843537551
+        }
+      },
+      "target_window_motion": 0.0028660333010295867,
+      "minimum_hand_detail": 569.8188776068218,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 98,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7339878082275391,
+        "max_wrist_displacement": 0.0417330483151176,
+        "pair_distance_change": 0.0564930894096075,
+        "shape_by_hand": {
+          "Left": 0.11920098960399628,
+          "Right": 0.7339878082275391
+        },
+        "wrist_by_hand": {
+          "Left": 0.028621259707368,
+          "Right": 0.0417330483151176
+        }
+      },
+      "target_window_motion": 0.005417848626507723,
+      "minimum_hand_detail": 706.9518333625165,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 99,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7030654549598694,
+        "max_wrist_displacement": 0.04155226248274223,
+        "pair_distance_change": 0.05618803929244997,
+        "shape_by_hand": {
+          "Left": 0.1182876005768776,
+          "Right": 0.7030654549598694
+        },
+        "wrist_by_hand": {
+          "Left": 0.028632322449610625,
+          "Right": 0.04155226248274223
+        }
+      },
+      "target_window_motion": 0.004122900008240361,
+      "minimum_hand_detail": 2123.2512263147914,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 100,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.717910647392273,
+        "max_wrist_displacement": 0.04260792186893484,
+        "pair_distance_change": 0.056474657566697506,
+        "shape_by_hand": {
+          "Left": 0.11827647686004639,
+          "Right": 0.717910647392273
+        },
+        "wrist_by_hand": {
+          "Left": 0.028499670845105192,
+          "Right": 0.04260792186893484
+        }
+      },
+      "target_window_motion": 0.004122900008240361,
+      "minimum_hand_detail": 2946.252126723507,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 101,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6925203204154968,
+        "max_wrist_displacement": 0.04316241227731134,
+        "pair_distance_change": 0.055942149780438724,
+        "shape_by_hand": {
+          "Left": 0.11821935325860977,
+          "Right": 0.6925203204154968
+        },
+        "wrist_by_hand": {
+          "Left": 0.028266148019127555,
+          "Right": 0.04316241227731134
+        }
+      },
+      "target_window_motion": 0.004122900008240361,
+      "minimum_hand_detail": 2025.7895482761658,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 102,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6907671689987183,
+        "max_wrist_displacement": 0.042602955453539704,
+        "pair_distance_change": 0.05515334171182156,
+        "shape_by_hand": {
+          "Left": 0.12047431617975235,
+          "Right": 0.6907671689987183
+        },
+        "wrist_by_hand": {
+          "Left": 0.02838048726561221,
+          "Right": 0.042602955453539704
+        }
+      },
+      "target_window_motion": 0.004122900008240361,
+      "minimum_hand_detail": 1705.1325018951306,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 103,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7197757363319397,
+        "max_wrist_displacement": 0.04214703488376926,
+        "pair_distance_change": 0.05450213867561702,
+        "shape_by_hand": {
+          "Left": 0.11797071248292923,
+          "Right": 0.7197757363319397
+        },
+        "wrist_by_hand": {
+          "Left": 0.02738595738774031,
+          "Right": 0.04214703488376926
+        }
+      },
+      "target_window_motion": 0.005922256019427775,
+      "minimum_hand_detail": 772.9333783991896,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 104,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7247554659843445,
+        "max_wrist_displacement": 0.04115788442340956,
+        "pair_distance_change": 0.049062708579056605,
+        "shape_by_hand": {
+          "Left": 0.1853364259004593,
+          "Right": 0.7247554659843445
+        },
+        "wrist_by_hand": {
+          "Left": 0.025748107878854374,
+          "Right": 0.04115788442340956
+        }
+      },
+      "target_window_motion": 0.00980771748114074,
+      "minimum_hand_detail": 611.1634678934017,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 105,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7650691866874695,
+        "max_wrist_displacement": 0.044171589444102266,
+        "pair_distance_change": 0.0454254638715099,
+        "shape_by_hand": {
+          "Left": 0.2847789227962494,
+          "Right": 0.7650691866874695
+        },
+        "wrist_by_hand": {
+          "Left": 0.020517146445251815,
+          "Right": 0.044171589444102266
+        }
+      },
+      "target_window_motion": 0.009918135152348859,
+      "minimum_hand_detail": 729.8205054109321,
+      "stage": "selected",
+      "reason": "selected",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 106,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7734879851341248,
+        "max_wrist_displacement": 0.04208515729614216,
+        "pair_distance_change": 0.041917605713995984,
+        "shape_by_hand": {
+          "Left": 0.554559588432312,
+          "Right": 0.7734879851341248
+        },
+        "wrist_by_hand": {
+          "Left": 0.017777625477835658,
+          "Right": 0.04208515729614216
+        }
+      },
+      "target_window_motion": 0.013660503073498673,
+      "minimum_hand_detail": 1368.4718652826687,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 107,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.9752328395843506,
+        "max_wrist_displacement": 0.04364973659296423,
+        "pair_distance_change": 0.04070017937279369,
+        "shape_by_hand": {
+          "Left": 0.9752328395843506,
+          "Right": 0.7908319234848022
+        },
+        "wrist_by_hand": {
+          "Left": 0.01740261306179717,
+          "Right": 0.04364973659296423
+        }
+      },
+      "target_window_motion": 0.01693619290249746,
+      "minimum_hand_detail": 1165.2127676417201,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 108,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.3216238021850586,
+        "max_wrist_displacement": 0.04610331723300426,
+        "pair_distance_change": 0.040126018115156,
+        "shape_by_hand": {
+          "Left": 1.3216238021850586,
+          "Right": 0.7582904100418091
+        },
+        "wrist_by_hand": {
+          "Left": 0.017684658441534693,
+          "Right": 0.04610331723300426
+        }
+      },
+      "target_window_motion": 0.01693619290249746,
+      "minimum_hand_detail": 357.68287933930543,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 109,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.3163243532180786,
+        "max_wrist_displacement": 0.04924928163606607,
+        "pair_distance_change": 0.033649760489942074,
+        "shape_by_hand": {
+          "Left": 1.3163243532180786,
+          "Right": 0.7261430621147156
+        },
+        "wrist_by_hand": {
+          "Left": 0.016871161158309375,
+          "Right": 0.04924928163606607
+        }
+      },
+      "target_window_motion": 0.01693619290249746,
+      "minimum_hand_detail": 333.66406107041377,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 110,
+      "stage": "stability",
+      "reason": "neighbor_shape_jump"
+    },
+    {
+      "frame_idx": 111,
+      "stage": "stability",
+      "reason": "neighbor_shape_jump"
+    },
+    {
+      "frame_idx": 112,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6427425742149353,
+        "max_wrist_displacement": 0.04523505690805524,
+        "pair_distance_change": 0.009219080012069013,
+        "shape_by_hand": {
+          "Left": 0.6385720372200012,
+          "Right": 0.6427425742149353
+        },
+        "wrist_by_hand": {
+          "Left": 0.024029141117680355,
+          "Right": 0.04523505690805524
+        }
+      },
+      "target_window_motion": 0.015081509544881902,
+      "minimum_hand_detail": 58.37133678668706,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable",
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 113,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6077091097831726,
+        "max_wrist_displacement": 0.03802796476297107,
+        "pair_distance_change": 0.008271346650807386,
+        "shape_by_hand": {
+          "Left": 0.6077091097831726,
+          "Right": 0.4638778865337372
+        },
+        "wrist_by_hand": {
+          "Left": 0.026442676137350685,
+          "Right": 0.03802796476297107
+        }
+      },
+      "target_window_motion": 0.015081509544881902,
+      "minimum_hand_detail": 31.599831301657236,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable",
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 114,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.9107280969619751,
+        "max_wrist_displacement": 0.0283361142142549,
+        "pair_distance_change": 0.005356414073532871,
+        "shape_by_hand": {
+          "Left": 0.9107280969619751,
+          "Right": 0.4386710822582245
+        },
+        "wrist_by_hand": {
+          "Left": 0.02798093758857467,
+          "Right": 0.0283361142142549
+        }
+      },
+      "target_window_motion": 0.017599508050221868,
+      "minimum_hand_detail": 24.07879593494804,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable",
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 115,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.1405917406082153,
+        "max_wrist_displacement": 0.025676185768040555,
+        "pair_distance_change": 0.0017276683781058799,
+        "shape_by_hand": {
+          "Left": 1.1405917406082153,
+          "Right": 0.2724965810775757
+        },
+        "wrist_by_hand": {
+          "Left": 0.025676185768040555,
+          "Right": 0.01741484597670481
+        }
+      },
+      "target_window_motion": 0.011579511446204326,
+      "minimum_hand_detail": 111.99101344821162,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 116,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2644611597061157,
+        "max_wrist_displacement": 0.022801202703724852,
+        "pair_distance_change": 0.0015973571189304794,
+        "shape_by_hand": {
+          "Left": 1.2644611597061157,
+          "Right": 0.28392213582992554
+        },
+        "wrist_by_hand": {
+          "Left": 0.022801202703724852,
+          "Right": 0.007278529173222751
+        }
+      },
+      "target_window_motion": 0.005553220456335351,
+      "minimum_hand_detail": 1621.6936642120588,
+      "stage": "pose_threshold",
+      "reason": "insufficient_shape_or_position_change"
+    },
+    {
+      "frame_idx": 117,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.3319497108459473,
+        "max_wrist_displacement": 0.024431059712521436,
+        "pair_distance_change": 0.005508481972535515,
+        "shape_by_hand": {
+          "Left": 1.3319497108459473,
+          "Right": 0.28775322437286377
+        },
+        "wrist_by_hand": {
+          "Left": 0.024431059712521436,
+          "Right": 0.0065949327445533595
+        }
+      },
+      "target_window_motion": 0.0034451823861737555,
+      "minimum_hand_detail": 4100.361203114515,
+      "stage": "pose_threshold",
+      "reason": "insufficient_shape_or_position_change"
+    },
+    {
+      "frame_idx": 118,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.3157782554626465,
+        "max_wrist_displacement": 0.025274913950099787,
+        "pair_distance_change": 0.007922783253995367,
+        "shape_by_hand": {
+          "Left": 1.3157782554626465,
+          "Right": 0.2780393064022064
+        },
+        "wrist_by_hand": {
+          "Left": 0.025274913950099787,
+          "Right": 0.008863324144425854
+        }
+      },
+      "target_window_motion": 0.0034451823861737555,
+      "minimum_hand_detail": 5924.732519276938,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 119,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.3398088216781616,
+        "max_wrist_displacement": 0.026402383754709782,
+        "pair_distance_change": 0.004967869993790942,
+        "shape_by_hand": {
+          "Left": 1.3398088216781616,
+          "Right": 0.29450392723083496
+        },
+        "wrist_by_hand": {
+          "Left": 0.026402383754709782,
+          "Right": 0.010354338413207423
+        }
+      },
+      "target_window_motion": 0.0034451823861737555,
+      "minimum_hand_detail": 3802.2177282275566,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 120,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.3109773397445679,
+        "max_wrist_displacement": 0.029466693223482044,
+        "pair_distance_change": 0.004311742102152723,
+        "shape_by_hand": {
+          "Left": 1.3109773397445679,
+          "Right": 0.31641116738319397
+        },
+        "wrist_by_hand": {
+          "Left": 0.029466693223482044,
+          "Right": 0.01222454966664755
+        }
+      },
+      "target_window_motion": 0.004262305751707637,
+      "minimum_hand_detail": 2576.6903303623394,
+      "stage": "selected",
+      "reason": "selected",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 121,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2983843088150024,
+        "max_wrist_displacement": 0.03443071112834464,
+        "pair_distance_change": 0.0030695148539458274,
+        "shape_by_hand": {
+          "Left": 1.2983843088150024,
+          "Right": 0.3264673948287964
+        },
+        "wrist_by_hand": {
+          "Left": 0.03443071112834464,
+          "Right": 0.013737930987190389
+        }
+      },
+      "target_window_motion": 0.0066107331255728305,
+      "minimum_hand_detail": 2064.7691835406404,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 122,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2926980257034302,
+        "max_wrist_displacement": 0.04074590052540103,
+        "pair_distance_change": 0.0018663331895358666,
+        "shape_by_hand": {
+          "Left": 1.2926980257034302,
+          "Right": 0.3222639858722687
+        },
+        "wrist_by_hand": {
+          "Left": 0.04074590052540103,
+          "Right": 0.017093200447434544
+        }
+      },
+      "target_window_motion": 0.00793335223548524,
+      "minimum_hand_detail": 2498.976615427926,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 123,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.281262993812561,
+        "max_wrist_displacement": 0.046649503441580406,
+        "pair_distance_change": 0.002843428663572943,
+        "shape_by_hand": {
+          "Left": 1.281262993812561,
+          "Right": 0.337747722864151
+        },
+        "wrist_by_hand": {
+          "Left": 0.046649503441580406,
+          "Right": 0.023809870760987832
+        }
+      },
+      "target_window_motion": 0.010461186165162957,
+      "minimum_hand_detail": 3030.7029921654052,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 124,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2391080856323242,
+        "max_wrist_displacement": 0.047163496265006266,
+        "pair_distance_change": 0.0038908851523712868,
+        "shape_by_hand": {
+          "Left": 1.2391080856323242,
+          "Right": 0.3710644841194153
+        },
+        "wrist_by_hand": {
+          "Left": 0.047163496265006266,
+          "Right": 0.033418227347119606
+        }
+      },
+      "target_window_motion": 0.009836832830778096,
+      "minimum_hand_detail": 2501.5152786537733,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 125,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2392756938934326,
+        "max_wrist_displacement": 0.04892703608485214,
+        "pair_distance_change": 0.0071335595857635525,
+        "shape_by_hand": {
+          "Left": 1.2392756938934326,
+          "Right": 0.38123828172683716
+        },
+        "wrist_by_hand": {
+          "Left": 0.04892703608485214,
+          "Right": 0.03989852927608366
+        }
+      },
+      "target_window_motion": 0.004044024074035108,
+      "minimum_hand_detail": 4612.747747359964,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 126,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2235792875289917,
+        "max_wrist_displacement": 0.05125654984992698,
+        "pair_distance_change": 0.009210934259621755,
+        "shape_by_hand": {
+          "Left": 1.2235792875289917,
+          "Right": 0.3772062063217163
+        },
+        "wrist_by_hand": {
+          "Left": 0.05125654984992698,
+          "Right": 0.042659864028274076
+        }
+      },
+      "target_window_motion": 0.004044024074035108,
+      "minimum_hand_detail": 6512.854157756357,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 127,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2255194187164307,
+        "max_wrist_displacement": 0.05308525568935092,
+        "pair_distance_change": 0.009792254220621887,
+        "shape_by_hand": {
+          "Left": 1.2255194187164307,
+          "Right": 0.36601611971855164
+        },
+        "wrist_by_hand": {
+          "Left": 0.05308525568935092,
+          "Right": 0.04126082844795986
+        }
+      },
+      "target_window_motion": 0.004044024074035108,
+      "minimum_hand_detail": 5473.02663988829,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 128,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2301832437515259,
+        "max_wrist_displacement": 0.055151601388435195,
+        "pair_distance_change": 0.007917172659197511,
+        "shape_by_hand": {
+          "Left": 1.2301832437515259,
+          "Right": 0.40547114610671997
+        },
+        "wrist_by_hand": {
+          "Left": 0.055151601388435195,
+          "Right": 0.037684796368656806
+        }
+      },
+      "target_window_motion": 0.009022130332927506,
+      "minimum_hand_detail": 2517.2192308034505,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 129,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2392209768295288,
+        "max_wrist_displacement": 0.05589492727422343,
+        "pair_distance_change": 0.007428219712554683,
+        "shape_by_hand": {
+          "Left": 1.2392209768295288,
+          "Right": 0.44289830327033997
+        },
+        "wrist_by_hand": {
+          "Left": 0.05589492727422343,
+          "Right": 0.03319243727147216
+        }
+      },
+      "target_window_motion": 0.009022130332927506,
+      "minimum_hand_detail": 2594.4316844885175,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 130,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2297359704971313,
+        "max_wrist_displacement": 0.05597787056731841,
+        "pair_distance_change": 0.003293232126515172,
+        "shape_by_hand": {
+          "Left": 1.2297359704971313,
+          "Right": 0.5511115789413452
+        },
+        "wrist_by_hand": {
+          "Left": 0.05597787056731841,
+          "Right": 0.032543766795419427
+        }
+      },
+      "target_window_motion": 0.009022130332927506,
+      "minimum_hand_detail": 549.0176330143631,
+      "stage": "selected",
+      "reason": "selected",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 131,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.1991745233535767,
+        "max_wrist_displacement": 0.05545120715064073,
+        "pair_distance_change": 0.00042482592610140134,
+        "shape_by_hand": {
+          "Left": 1.1991745233535767,
+          "Right": 0.7010511755943298
+        },
+        "wrist_by_hand": {
+          "Left": 0.05545120715064073,
+          "Right": 0.035343087352389405
+        }
+      },
+      "target_window_motion": 0.010902469822865806,
+      "minimum_hand_detail": 267.5200094507063,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 132,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2560529708862305,
+        "max_wrist_displacement": 0.050396217087627516,
+        "pair_distance_change": 0.008544811197251059,
+        "shape_by_hand": {
+          "Left": 1.2560529708862305,
+          "Right": 0.8043693900108337
+        },
+        "wrist_by_hand": {
+          "Left": 0.050396217087627516,
+          "Right": 0.03781812592003365
+        }
+      },
+      "target_window_motion": 0.010902469822865806,
+      "minimum_hand_detail": 189.9675349238157,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 133,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.3071445226669312,
+        "max_wrist_displacement": 0.04493239129368679,
+        "pair_distance_change": 0.01599705256753286,
+        "shape_by_hand": {
+          "Left": 1.3071445226669312,
+          "Right": 0.8840751647949219
+        },
+        "wrist_by_hand": {
+          "Left": 0.04493239129368679,
+          "Right": 0.040112144880519264
+        }
+      },
+      "target_window_motion": 0.010902469822865806,
+      "minimum_hand_detail": 101.49716087127914,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 134,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.322796106338501,
+        "max_wrist_displacement": 0.03644682641900254,
+        "pair_distance_change": 0.018068941326477603,
+        "shape_by_hand": {
+          "Left": 1.322796106338501,
+          "Right": 0.8735895156860352
+        },
+        "wrist_by_hand": {
+          "Left": 0.035721012861976875,
+          "Right": 0.03644682641900254
+        }
+      },
+      "target_window_motion": 0.012456917534049188,
+      "minimum_hand_detail": 93.17361088582737,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable",
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 135,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2730532884597778,
+        "max_wrist_displacement": 0.03460066539576304,
+        "pair_distance_change": 0.023050671567417323,
+        "shape_by_hand": {
+          "Left": 1.2730532884597778,
+          "Right": 0.7313876152038574
+        },
+        "wrist_by_hand": {
+          "Left": 0.024295532678182102,
+          "Right": 0.03460066539576304
+        }
+      },
+      "target_window_motion": 0.012391470986679856,
+      "minimum_hand_detail": 69.96088978263604,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable",
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 136,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.156579613685608,
+        "max_wrist_displacement": 0.031269338369569466,
+        "pair_distance_change": 0.026640059979336387,
+        "shape_by_hand": {
+          "Left": 1.156579613685608,
+          "Right": 0.7078112363815308
+        },
+        "wrist_by_hand": {
+          "Left": 0.011390782810966178,
+          "Right": 0.031269338369569466
+        }
+      },
+      "target_window_motion": 0.012274781008349174,
+      "minimum_hand_detail": 299.17247614683197,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 137,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.9835559725761414,
+        "max_wrist_displacement": 0.02725752931431882,
+        "pair_distance_change": 0.030055935552136558,
+        "shape_by_hand": {
+          "Left": 0.9835559725761414,
+          "Right": 0.7367207407951355
+        },
+        "wrist_by_hand": {
+          "Left": 0.003174688180804119,
+          "Right": 0.02725752931431882
+        }
+      },
+      "target_window_motion": 0.012274781008349174,
+      "minimum_hand_detail": 485.3737171986263,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 138,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.9628679156303406,
+        "max_wrist_displacement": 0.02399302031617156,
+        "pair_distance_change": 0.031712536396136255,
+        "shape_by_hand": {
+          "Left": 0.7040884494781494,
+          "Right": 0.9628679156303406
+        },
+        "wrist_by_hand": {
+          "Left": 0.01016549903954929,
+          "Right": 0.02399302031617156
+        }
+      },
+      "target_window_motion": 0.012274781008349174,
+      "minimum_hand_detail": 541.6037665066026,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 139,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2359180450439453,
+        "max_wrist_displacement": 0.026694973675920407,
+        "pair_distance_change": 0.0352894048696638,
+        "shape_by_hand": {
+          "Left": 0.43763870000839233,
+          "Right": 1.2359180450439453
+        },
+        "wrist_by_hand": {
+          "Left": 0.014151220127738697,
+          "Right": 0.026694973675920407
+        }
+      },
+      "target_window_motion": 0.010485857196553414,
+      "minimum_hand_detail": 68.38401419631352,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 140,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.264095664024353,
+        "max_wrist_displacement": 0.030621828974940174,
+        "pair_distance_change": 0.04289082572162639,
+        "shape_by_hand": {
+          "Left": 0.45704489946365356,
+          "Right": 1.264095664024353
+        },
+        "wrist_by_hand": {
+          "Left": 0.016320863111045723,
+          "Right": 0.030621828974940174
+        }
+      },
+      "target_window_motion": 0.01023720460388257,
+      "minimum_hand_detail": 655.8377316856154,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 141,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.220158576965332,
+        "max_wrist_displacement": 0.03134022407884424,
+        "pair_distance_change": 0.04655079333810442,
+        "shape_by_hand": {
+          "Left": 0.5071676969528198,
+          "Right": 1.220158576965332
+        },
+        "wrist_by_hand": {
+          "Left": 0.0186081545527691,
+          "Right": 0.03134022407884424
+        }
+      },
+      "target_window_motion": 0.01023720460388257,
+      "minimum_hand_detail": 160.52168949132547,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 142,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.9477995038032532,
+        "max_wrist_displacement": 0.029395828294188006,
+        "pair_distance_change": 0.04654414374426992,
+        "shape_by_hand": {
+          "Left": 0.4117433726787567,
+          "Right": 0.9477995038032532
+        },
+        "wrist_by_hand": {
+          "Left": 0.02006795079674602,
+          "Right": 0.029395828294188006
+        }
+      },
+      "target_window_motion": 0.00861516026676243,
+      "minimum_hand_detail": 90.17691233423933,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 143,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7415962815284729,
+        "max_wrist_displacement": 0.032352627337643936,
+        "pair_distance_change": 0.053281917427006165,
+        "shape_by_hand": {
+          "Left": 0.5158011317253113,
+          "Right": 0.7415962815284729
+        },
+        "wrist_by_hand": {
+          "Left": 0.023376589980225772,
+          "Right": 0.032352627337643936
+        }
+      },
+      "target_window_motion": 0.005868531978340306,
+      "minimum_hand_detail": 78.11727214938324,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 144,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.8068082332611084,
+        "max_wrist_displacement": 0.03365448793555879,
+        "pair_distance_change": 0.05790362411175972,
+        "shape_by_hand": {
+          "Left": 0.5753764510154724,
+          "Right": 0.8068082332611084
+        },
+        "wrist_by_hand": {
+          "Left": 0.026178445694845152,
+          "Right": 0.03365448793555879
+        }
+      },
+      "target_window_motion": 0.005868531978340306,
+      "minimum_hand_detail": 373.7010312021761,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 145,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7658129930496216,
+        "max_wrist_displacement": 0.035233779458739685,
+        "pair_distance_change": 0.06297958117533234,
+        "shape_by_hand": {
+          "Left": 0.5101205110549927,
+          "Right": 0.7658129930496216
+        },
+        "wrist_by_hand": {
+          "Left": 0.029285629458864367,
+          "Right": 0.035233779458739685
+        }
+      },
+      "target_window_motion": 0.005868531978340306,
+      "minimum_hand_detail": 129.94914912396683,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 146,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7685754299163818,
+        "max_wrist_displacement": 0.03840807736553067,
+        "pair_distance_change": 0.07322396621673852,
+        "shape_by_hand": {
+          "Left": 0.47603392601013184,
+          "Right": 0.7685754299163818
+        },
+        "wrist_by_hand": {
+          "Left": 0.03598397572565771,
+          "Right": 0.03840807736553067
+        }
+      },
+      "target_window_motion": 0.008882097943184914,
+      "minimum_hand_detail": 147.74010368441358,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 147,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7619507908821106,
+        "max_wrist_displacement": 0.03960571856757775,
+        "pair_distance_change": 0.07663612217298753,
+        "shape_by_hand": {
+          "Left": 0.4897816479206085,
+          "Right": 0.7619507908821106
+        },
+        "wrist_by_hand": {
+          "Left": 0.03960571856757775,
+          "Right": 0.038214314435187656
+        }
+      },
+      "target_window_motion": 0.008882097943184914,
+      "minimum_hand_detail": 549.6072702704039,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 148,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7699013352394104,
+        "max_wrist_displacement": 0.04029141896929633,
+        "pair_distance_change": 0.07732939428018562,
+        "shape_by_hand": {
+          "Left": 0.5619930624961853,
+          "Right": 0.7699013352394104
+        },
+        "wrist_by_hand": {
+          "Left": 0.04029141896929633,
+          "Right": 0.03834914274267485
+        }
+      },
+      "target_window_motion": 0.004663655157939042,
+      "minimum_hand_detail": 581.6638604129469,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 149,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7136003971099854,
+        "max_wrist_displacement": 0.040739801601055954,
+        "pair_distance_change": 0.07711308507074752,
+        "shape_by_hand": {
+          "Left": 0.6321598291397095,
+          "Right": 0.7136003971099854
+        },
+        "wrist_by_hand": {
+          "Left": 0.040739801601055954,
+          "Right": 0.03810342726300224
+        }
+      },
+      "target_window_motion": 0.004663655157939042,
+      "minimum_hand_detail": 701.4069664132209,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 150,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.7249363660812378,
+        "max_wrist_displacement": 0.042408662633688005,
+        "pair_distance_change": 0.07844008425035388,
+        "shape_by_hand": {
+          "Left": 0.6901353001594543,
+          "Right": 0.7249363660812378
+        },
+        "wrist_by_hand": {
+          "Left": 0.042408662633688005,
+          "Right": 0.038325827604292644
+        }
+      },
+      "target_window_motion": 0.004663655157939042,
+      "minimum_hand_detail": 1132.9127260140617,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 151,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.9776067733764648,
+        "max_wrist_displacement": 0.043356738864631726,
+        "pair_distance_change": 0.0787769277380326,
+        "shape_by_hand": {
+          "Left": 0.7529284358024597,
+          "Right": 0.9776067733764648
+        },
+        "wrist_by_hand": {
+          "Left": 0.043356738864631726,
+          "Right": 0.03814177671744463
+        }
+      },
+      "target_window_motion": 0.016866142290784102,
+      "minimum_hand_detail": 2250.2338205142473,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "motion_above_threshold"
+      ]
+    },
+    {
+      "frame_idx": 152,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.2167659997940063,
+        "max_wrist_displacement": 0.04696002908366104,
+        "pair_distance_change": 0.08799613242998601,
+        "shape_by_hand": {
+          "Left": 0.7705500721931458,
+          "Right": 1.2167659997940063
+        },
+        "wrist_by_hand": {
+          "Left": 0.043326935177265706,
+          "Right": 0.04696002908366104
+        }
+      },
+      "target_window_motion": 0.006220506528384682,
+      "minimum_hand_detail": 3308.837073972645,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 153,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.1722817420959473,
+        "max_wrist_displacement": 0.050250939047329315,
+        "pair_distance_change": 0.09176259744771964,
+        "shape_by_hand": {
+          "Left": 0.7757381200790405,
+          "Right": 1.1722817420959473
+        },
+        "wrist_by_hand": {
+          "Left": 0.04459679979984722,
+          "Right": 0.050250939047329315
+        }
+      },
+      "target_window_motion": 0.005383722054790977,
+      "minimum_hand_detail": 1838.6459528418611,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 154,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.182329535484314,
+        "max_wrist_displacement": 0.04789069688574585,
+        "pair_distance_change": 0.09244950049082315,
+        "shape_by_hand": {
+          "Left": 0.8512412905693054,
+          "Right": 1.182329535484314
+        },
+        "wrist_by_hand": {
+          "Left": 0.04766143135832084,
+          "Right": 0.04789069688574585
+        }
+      },
+      "target_window_motion": 0.005383722054790977,
+      "minimum_hand_detail": 791.0128415713784,
+      "stage": "selected",
+      "reason": "selected",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 155,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.1340179443359375,
+        "max_wrist_displacement": 0.05021181553860463,
+        "pair_distance_change": 0.09180718089638187,
+        "shape_by_hand": {
+          "Left": 0.9018763899803162,
+          "Right": 1.1340179443359375
+        },
+        "wrist_by_hand": {
+          "Left": 0.05021181553860463,
+          "Right": 0.045231035981783435
+        }
+      },
+      "target_window_motion": 0.005383722054790977,
+      "minimum_hand_detail": 214.68085383202708,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": []
+    },
+    {
+      "frame_idx": 156,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.0846883058547974,
+        "max_wrist_displacement": 0.05427914350737814,
+        "pair_distance_change": 0.09475731476101776,
+        "shape_by_hand": {
+          "Left": 0.9629004597663879,
+          "Right": 1.0846883058547974
+        },
+        "wrist_by_hand": {
+          "Left": 0.05427914350737814,
+          "Right": 0.04510288584060425
+        }
+      },
+      "target_window_motion": 0.005933743452184597,
+      "minimum_hand_detail": 99.89754396960694,
+      "stage": "not_selected",
+      "reason": "selection_limit_or_diversity",
+      "quality_failures": [
+        "detail_below_threshold_or_unavailable"
+      ]
+    },
+    {
+      "frame_idx": 157,
+      "stage": "stability",
+      "reason": "missing_stability_window"
+    }
+  ]
+}
