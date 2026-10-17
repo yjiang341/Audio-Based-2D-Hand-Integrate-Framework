@@ -1,0 +1,528 @@
+{
+  "batch_id": "batch_20261004_041248_UTC_53d658",
+  "clip_count": 5,
+  "clip_status_counts": {
+    "completed": 4,
+    "no_reference": 1
+  },
+  "video_sampling": {
+    "mode": "random",
+    "sampling_seed": 480,
+    "seed_applied": true,
+    "requested_max_clips": 5,
+    "selected_clip_count": 5,
+    "input_directory": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips",
+    "recursive": false,
+    "with_replacement": false,
+    "algorithm": "sorted_pool_local_random_shuffle_then_prefix"
+  },
+  "metrics": {
+    "quality_pass": {
+      "selected_target_count": 16,
+      "successful_target_count": 16,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 4,
+      "hand_count_with_scores": 31,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 16,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 7.7092099403479315,
+          "std": 1.7797453999470245,
+          "std_ddof": 1,
+          "min": 5.354934041478494,
+          "max": 10.873957138082588
+        },
+        "ssim": {
+          "valid_count": 16,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.47393444255652545,
+          "std": 0.0751261945511229,
+          "std_ddof": 1,
+          "min": 0.361720259215104,
+          "max": 0.6482952554182397
+        },
+        "lpips": {
+          "valid_count": 16,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6335908882319927,
+          "std": 0.06162112622640994,
+          "std_ddof": 1,
+          "min": 0.5242574512958527,
+          "max": 0.7347006499767303
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 4,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 7.289995967801962,
+          "std": 1.5663665951181598,
+          "std_ddof": 1,
+          "min": 5.613140077618082,
+          "max": 9.082050674569528
+        },
+        "ssim": {
+          "valid_count": 4,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.4528939571335627,
+          "std": 0.06761060349571588,
+          "std_ddof": 1,
+          "min": 0.36873201544171175,
+          "max": 0.5084500400151638
+        },
+        "lpips": {
+          "valid_count": 4,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6189602524042129,
+          "std": 0.05427633694007562,
+          "std_ddof": 1,
+          "min": 0.5604377090930939,
+          "max": 0.6764178991317749
+        }
+      }
+    },
+    "quality_exception": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 2,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.585555540515614,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.585555540515614,
+          "max": 5.585555540515614
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.44243669124068064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.44243669124068064,
+          "max": 0.44243669124068064
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.586880624294281,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.586880624294281,
+          "max": 0.586880624294281
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.585555540515614,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.585555540515614,
+          "max": 5.585555540515614
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.44243669124068064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.44243669124068064,
+          "max": 0.44243669124068064
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.586880624294281,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.586880624294281,
+          "max": 0.586880624294281
+        }
+      }
+    },
+    "quality_unknown": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_pass_single_hand": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 1,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 8.006999977563893,
+          "std": null,
+          "std_ddof": 1,
+          "min": 8.006999977563893,
+          "max": 8.006999977563893
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.42716581204606774,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.42716581204606774,
+          "max": 0.42716581204606774
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5708765983581543,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5708765983581543,
+          "max": 0.5708765983581543
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 8.006999977563893,
+          "std": null,
+          "std_ddof": 1,
+          "min": 8.006999977563893,
+          "max": 8.006999977563893
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.42716581204606774,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.42716581204606774,
+          "max": 0.42716581204606774
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5708765983581543,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5708765983581543,
+          "max": 0.5708765983581543
+        }
+      }
+    },
+    "quality_pass_two_hands": {
+      "selected_target_count": 15,
+      "successful_target_count": 15,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 4,
+      "hand_count_with_scores": 30,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 15,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 7.689357271200201,
+          "std": 1.8403767955840589,
+          "std_ddof": 1,
+          "min": 5.354934041478494,
+          "max": 10.873957138082588
+        },
+        "ssim": {
+          "valid_count": 15,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.4770523512572226,
+          "std": 0.07668397648614436,
+          "std_ddof": 1,
+          "min": 0.361720259215104,
+          "max": 0.6482952554182397
+        },
+        "lpips": {
+          "valid_count": 15,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6377718408902486,
+          "std": 0.06138994818245824,
+          "std_ddof": 1,
+          "min": 0.5242574512958527,
+          "max": 0.7347006499767303
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 4,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 7.292561416600465,
+          "std": 1.5680295321798394,
+          "std_ddof": 1,
+          "min": 5.613140077618082,
+          "max": 9.082050674569528
+        },
+        "ssim": {
+          "valid_count": 4,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.4579742213816312,
+          "std": 0.07366864277772507,
+          "std_ddof": 1,
+          "min": 0.36873201544171175,
+          "max": 0.5287710970074379
+        },
+        "lpips": {
+          "valid_count": 4,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6240292519330979,
+          "std": 0.05911891961288,
+          "std_ddof": 1,
+          "min": 0.5604377090930939,
+          "max": 0.6764178991317749
+        }
+      }
+    },
+    "quality_exception_single_hand": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_exception_two_hands": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 2,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.585555540515614,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.585555540515614,
+          "max": 5.585555540515614
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.44243669124068064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.44243669124068064,
+          "max": 0.44243669124068064
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.586880624294281,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.586880624294281,
+          "max": 0.586880624294281
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.585555540515614,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.585555540515614,
+          "max": 5.585555540515614
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.44243669124068064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.44243669124068064,
+          "max": 0.44243669124068064
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.586880624294281,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.586880624294281,
+          "max": 0.586880624294281
+        }
+      }
+    }
+  },
+  "metric_space": "unsegmented RGB in identical target-defined hand boxes",
+  "target_weighting": "one target contributes its mean of present-hand scores",
+  "clip_weighting": "one clip contributes its mean of successful targets in that group"
+}

@@ -1,0 +1,1127 @@
+{
+  "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\aUBQCNegrYc_3-1-rgb_front.mp4",
+  "reference_frame_idx": 4,
+  "reference_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\reference_256.png",
+  "reference_image_kind": "hand_only",
+  "frame_index_base": 0,
+  "fps": 24.0,
+  "requested_target_count": 5,
+  "selected_target_count": 2,
+  "shortfall": 3,
+  "scanned_frame_count": 72,
+  "eligible_candidate_count": 15,
+  "quality_pass_selected_count": 1,
+  "quality_exception_selected_count": 1,
+  "single_hand_selected_count": 0,
+  "two_hand_selected_count": 2,
+  "selection_diagnostics": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\selection_diagnostics.json",
+  "selection_stage_counts": {
+    "detection_or_crop": 37,
+    "not_selected": 13,
+    "pose_threshold": 4,
+    "reference_gap": 7,
+    "selected": 2,
+    "stability": 9
+  },
+  "selection_reason_counts": {
+    "a hand is too close to the source image border": 29,
+    "a handedness score is too low": 4,
+    "hand_count_or_label_changed": 3,
+    "insufficient_shape_or_position_change": 4,
+    "invalid_hand_labels_or_points: Handedness must be unique and known.": 4,
+    "invalid_stability_neighbor": 3,
+    "missing_stability_window": 1,
+    "neighbor_shape_jump": 2,
+    "selected": 2,
+    "selection_limit_or_diversity": 13,
+    "too_close_to_reference": 7
+  },
+  "selection_config": {
+    "num_targets": 5,
+    "min_reference_gap_seconds": 0.3,
+    "min_target_gap_seconds": 0.3,
+    "min_shape_change": 0.25,
+    "min_wrist_displacement": 0.025,
+    "min_pair_distance_change": 0.025,
+    "min_hand_detail": 200.0,
+    "max_window_motion": 0.012,
+    "min_handedness_score": 0.7,
+    "edge_gap": 0.04,
+    "max_neighbor_wrist_jump": 0.08,
+    "max_neighbor_shape_jump": 0.5,
+    "crop_scale": 1.5
+  },
+  "ground_truth_dir": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame",
+  "generated_image_dir": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\generated_image",
+  "targets": [
+    {
+      "target_frame_idx": 19,
+      "target_timestamp_ms": 792,
+      "hands": [
+        {
+          "handedness": "Left",
+          "handedness_score": 0.9986408948898315,
+          "landmarks_xy": [
+            [
+              0.584636390209198,
+              0.7305031418800354
+            ],
+            [
+              0.5739353895187378,
+              0.6932655572891235
+            ],
+            [
+              0.5541612505912781,
+              0.659231960773468
+            ],
+            [
+              0.5395463109016418,
+              0.6366503834724426
+            ],
+            [
+              0.5331501960754395,
+              0.6130985021591187
+            ],
+            [
+              0.5533608198165894,
+              0.6666150093078613
+            ],
+            [
+              0.5280314087867737,
+              0.6566271185874939
+            ],
+            [
+              0.5129838585853577,
+              0.6536250710487366
+            ],
+            [
+              0.5035441517829895,
+              0.6542197465896606
+            ],
+            [
+              0.5506073832511902,
+              0.6939884424209595
+            ],
+            [
+              0.5175337791442871,
+              0.6869155168533325
+            ],
+            [
+              0.5029175877571106,
+              0.6830843687057495
+            ],
+            [
+              0.4965057373046875,
+              0.6820940375328064
+            ],
+            [
+              0.5487459897994995,
+              0.7228718996047974
+            ],
+            [
+              0.5141799449920654,
+              0.7184242606163025
+            ],
+            [
+              0.5068496465682983,
+              0.7120193839073181
+            ],
+            [
+              0.5081209540367126,
+              0.7069727182388306
+            ],
+            [
+              0.5473542213439941,
+              0.7520113587379456
+            ],
+            [
+              0.5194455981254578,
+              0.7471818923950195
+            ],
+            [
+              0.5149539709091187,
+              0.7399094700813293
+            ],
+            [
+              0.5179355144500732,
+              0.7341894507408142
+            ]
+          ]
+        },
+        {
+          "handedness": "Right",
+          "handedness_score": 0.995427668094635,
+          "landmarks_xy": [
+            [
+              0.4373980164527893,
+              0.5892899632453918
+            ],
+            [
+              0.4531671702861786,
+              0.5493454933166504
+            ],
+            [
+              0.46181508898735046,
+              0.5162960886955261
+            ],
+            [
+              0.4685511291027069,
+              0.49504899978637695
+            ],
+            [
+              0.47569739818573,
+              0.4766431450843811
+            ],
+            [
+              0.43534255027770996,
+              0.4745567739009857
+            ],
+            [
+              0.4339429438114166,
+              0.4532967507839203
+            ],
+            [
+              0.4336485266685486,
+              0.43452006578445435
+            ],
+            [
+              0.4343879818916321,
+              0.418754518032074
+            ],
+            [
+              0.4251478910446167,
+              0.4855605363845825
+            ],
+            [
+              0.4516008496284485,
+              0.4860847592353821
+            ],
+            [
+              0.46846142411231995,
+              0.4997509717941284
+            ],
+            [
+              0.4773534834384918,
+              0.511223316192627
+            ],
+            [
+              0.4203741252422333,
+              0.5077044367790222
+            ],
+            [
+              0.4466629922389984,
+              0.5087995529174805
+            ],
+            [
+              0.4606345295906067,
+              0.5167363286018372
+            ],
+            [
+              0.4677901268005371,
+              0.5253783464431763
+            ],
+            [
+              0.4187263250350952,
+              0.5338470339775085
+            ],
+            [
+              0.4394185543060303,
+              0.530748188495636
+            ],
+            [
+              0.4509613811969757,
+              0.5344582200050354
+            ],
+            [
+              0.4571012854576111,
+              0.5396740436553955
+            ]
+          ]
+        }
+      ],
+      "hand_count": 2,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.0026596784591675,
+        "max_wrist_displacement": 0.04681403413402755,
+        "pair_distance_change": 0.05008227833371153,
+        "shape_by_hand": {
+          "Left": 0.35982629656791687,
+          "Right": 1.0026596784591675
+        },
+        "wrist_by_hand": {
+          "Left": 0.021053195919476745,
+          "Right": 0.04681403413402755
+        }
+      },
+      "minimum_hand_detail": 770.1791678899637,
+      "per_hand_detail": {
+        "Left": {
+          "laplacian_variance": 770.1791678899637,
+          "gray_contrast": 38.26804946906892,
+          "roi_source_xyxy": [
+            612,
+            412,
+            771,
+            571
+          ]
+        },
+        "Right": {
+          "laplacian_variance": 1564.285135785082,
+          "gray_contrast": 41.65526148575438,
+          "roi_source_xyxy": [
+            487,
+            276,
+            660,
+            449
+          ]
+        }
+      },
+      "target_window_motion": 0.021134716453368032,
+      "quality_exception": true,
+      "quality_failures": [
+        "motion_above_threshold"
+      ],
+      "crop_xy_side_source_pixels": {
+        "x0": 462,
+        "y0": 241,
+        "side": 360
+      },
+      "ground_truth_full": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000019_full.png",
+      "ground_truth_crop": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000019_256.png",
+      "keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000019_keypoints.png",
+      "target_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000019_42x2.npy",
+      "target_heatmaps_42x32x32": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000019_heatmap_42x32x32.npy",
+      "status": "success",
+      "generation_wall_seconds": 5.182058800011873,
+      "generated_raw_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\generated_image\\frame_000019_raw.png",
+      "metrics": {
+        "psnr": 5.585555540515614,
+        "ssim": 0.44243669124068064,
+        "lpips": 0.586880624294281
+      },
+      "metrics_by_hand": {
+        "right": {
+          "psnr": 6.1840263884867905,
+          "ssim": 0.463365282938138,
+          "lpips": 0.6334997415542603
+        },
+        "left": {
+          "psnr": 4.987084692544437,
+          "ssim": 0.4215080995432232,
+          "lpips": 0.5402615070343018
+        }
+      },
+      "orientation_status": "not_evaluated",
+      "metrics_by_hand_non_finite": {
+        "right": [],
+        "left": []
+      },
+      "metric_non_finite": [],
+      "seed": 42,
+      "ground_truth_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000019_hands.png",
+      "ground_truth_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000019_mask.png",
+      "generated_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\generated_image\\frame_000019_256.png",
+      "generated_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\generated_image\\frame_000019_mask.png",
+      "display_status": "success"
+    },
+    {
+      "target_frame_idx": 67,
+      "target_timestamp_ms": 2792,
+      "hands": [
+        {
+          "handedness": "Left",
+          "handedness_score": 0.9941240549087524,
+          "landmarks_xy": [
+            [
+              0.540360152721405,
+              0.7327238917350769
+            ],
+            [
+              0.5435360670089722,
+              0.6926591992378235
+            ],
+            [
+              0.5363458395004272,
+              0.6649649739265442
+            ],
+            [
+              0.5271855592727661,
+              0.6425792574882507
+            ],
+            [
+              0.5260885953903198,
+              0.6235969662666321
+            ],
+            [
+              0.5077194571495056,
+              0.682185709476471
+            ],
+            [
+              0.48125413060188293,
+              0.6656108498573303
+            ],
+            [
+              0.46686169505119324,
+              0.6498165130615234
+            ],
+            [
+              0.45697540044784546,
+              0.6361925005912781
+            ],
+            [
+              0.49941208958625793,
+              0.702140748500824
+            ],
+            [
+              0.4725557267665863,
+              0.6793849468231201
+            ],
+            [
+              0.4583088755607605,
+              0.6586799621582031
+            ],
+            [
+              0.44895246624946594,
+              0.6406527757644653
+            ],
+            [
+              0.4947142004966736,
+              0.714585542678833
+            ],
+            [
+              0.47017785906791687,
+              0.6901851296424866
+            ],
+            [
+              0.4576420187950134,
+              0.6693679094314575
+            ],
+            [
+              0.4501737356185913,
+              0.6517395973205566
+            ],
+            [
+              0.49254003167152405,
+              0.7197064757347107
+            ],
+            [
+              0.473071426153183,
+              0.6973726749420166
+            ],
+            [
+              0.463354229927063,
+              0.6796050071716309
+            ],
+            [
+              0.45713478326797485,
+              0.6642336845397949
+            ]
+          ]
+        },
+        {
+          "handedness": "Right",
+          "handedness_score": 0.9964841604232788,
+          "landmarks_xy": [
+            [
+              0.44101279973983765,
+              0.5951479077339172
+            ],
+            [
+              0.45171675086021423,
+              0.5507673025131226
+            ],
+            [
+              0.4582313001155853,
+              0.5078309178352356
+            ],
+            [
+              0.46113795042037964,
+              0.4767606854438782
+            ],
+            [
+              0.4601990282535553,
+              0.4484093487262726
+            ],
+            [
+              0.44489404559135437,
+              0.49359074234962463
+            ],
+            [
+              0.4668132960796356,
+              0.4720771908760071
+            ],
+            [
+              0.4815604090690613,
+              0.47413307428359985
+            ],
+            [
+              0.4908536672592163,
+              0.4799201190471649
+            ],
+            [
+              0.4433582127094269,
+              0.5165504217147827
+            ],
+            [
+              0.4752528965473175,
+              0.5009070038795471
+            ],
+            [
+              0.4896087348461151,
+              0.5085427165031433
+            ],
+            [
+              0.49555671215057373,
+              0.5164398550987244
+            ],
+            [
+              0.4454730153083801,
+              0.5438054203987122
+            ],
+            [
+              0.47861114144325256,
+              0.5285579562187195
+            ],
+            [
+              0.4888770282268524,
+              0.5325941443443298
+            ],
+            [
+              0.49087250232696533,
+              0.5379804968833923
+            ],
+            [
+              0.45076361298561096,
+              0.5716811418533325
+            ],
+            [
+              0.47656792402267456,
+              0.5552557706832886
+            ],
+            [
+              0.48128193616867065,
+              0.5557608604431152
+            ],
+            [
+              0.47940969467163086,
+              0.5594958066940308
+            ]
+          ]
+        }
+      ],
+      "hand_count": 2,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 0.6283379793167114,
+        "max_wrist_displacement": 0.04271025288405353,
+        "pair_distance_change": 0.014027567553639365,
+        "shape_by_hand": {
+          "Left": 0.505240797996521,
+          "Right": 0.6283379793167114
+        },
+        "wrist_by_hand": {
+          "Left": 0.03697298072615227,
+          "Right": 0.04271025288405353
+        }
+      },
+      "minimum_hand_detail": 674.7726303700911,
+      "per_hand_detail": {
+        "Left": {
+          "laplacian_variance": 2699.050667248455,
+          "gray_contrast": 63.21258043369275,
+          "roi_source_xyxy": [
+            550,
+            403,
+            720,
+            574
+          ]
+        },
+        "Right": {
+          "laplacian_variance": 674.7726303700911,
+          "gray_contrast": 34.4876252030596,
+          "roi_source_xyxy": [
+            525,
+            301,
+            674,
+            450
+          ]
+        }
+      },
+      "target_window_motion": 0.010076446132099308,
+      "quality_exception": false,
+      "quality_failures": [],
+      "crop_xy_side_source_pixels": {
+        "x0": 476,
+        "y0": 271,
+        "side": 308
+      },
+      "ground_truth_full": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000067_full.png",
+      "ground_truth_crop": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000067_256.png",
+      "keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000067_keypoints.png",
+      "target_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000067_42x2.npy",
+      "target_heatmaps_42x32x32": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000067_heatmap_42x32x32.npy",
+      "status": "success",
+      "generation_wall_seconds": 5.197027900023386,
+      "generated_raw_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\generated_image\\frame_000067_raw.png",
+      "metrics": {
+        "psnr": 5.613140077618082,
+        "ssim": 0.36873201544171175,
+        "lpips": 0.5604377090930939
+      },
+      "metrics_by_hand": {
+        "right": {
+          "psnr": 6.054955165931358,
+          "ssim": 0.4176944156562136,
+          "lpips": 0.5951303839683533
+        },
+        "left": {
+          "psnr": 5.171324989304805,
+          "ssim": 0.3197696152272098,
+          "lpips": 0.5257450342178345
+        }
+      },
+      "orientation_status": "not_evaluated",
+      "metrics_by_hand_non_finite": {
+        "right": [],
+        "left": []
+      },
+      "metric_non_finite": [],
+      "seed": 42,
+      "ground_truth_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000067_hands.png",
+      "ground_truth_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\ground_truth_frame\\frame_000067_mask.png",
+      "generated_image": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\generated_image\\frame_000067_256.png",
+      "generated_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\generated_image\\frame_000067_mask.png",
+      "display_status": "success"
+    }
+  ],
+  "metric_space": "unsegmented_RGB_in_matching_target_hand_boxes_resized_256x256",
+  "display_space": "segmented_hands_on_white",
+  "selection_seconds": 1.5993956999154761,
+  "success_count": 2,
+  "failed_count": 0,
+  "prepared_count": 0,
+  "display_failed_count": 0,
+  "metric_summary": {
+    "quality_pass": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 2,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.613140077618082,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.613140077618082,
+          "max": 5.613140077618082
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.36873201544171175,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.36873201544171175,
+          "max": 0.36873201544171175
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5604377090930939,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5604377090930939,
+          "max": 0.5604377090930939
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.613140077618082,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.613140077618082,
+          "max": 5.613140077618082
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.36873201544171175,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.36873201544171175,
+          "max": 0.36873201544171175
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5604377090930939,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5604377090930939,
+          "max": 0.5604377090930939
+        }
+      }
+    },
+    "quality_exception": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 2,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.585555540515614,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.585555540515614,
+          "max": 5.585555540515614
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.44243669124068064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.44243669124068064,
+          "max": 0.44243669124068064
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.586880624294281,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.586880624294281,
+          "max": 0.586880624294281
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.585555540515614,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.585555540515614,
+          "max": 5.585555540515614
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.44243669124068064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.44243669124068064,
+          "max": 0.44243669124068064
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.586880624294281,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.586880624294281,
+          "max": 0.586880624294281
+        }
+      }
+    },
+    "quality_unknown": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_pass_single_hand": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_pass_two_hands": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 2,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.613140077618082,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.613140077618082,
+          "max": 5.613140077618082
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.36873201544171175,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.36873201544171175,
+          "max": 0.36873201544171175
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5604377090930939,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5604377090930939,
+          "max": 0.5604377090930939
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.613140077618082,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.613140077618082,
+          "max": 5.613140077618082
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.36873201544171175,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.36873201544171175,
+          "max": 0.36873201544171175
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.5604377090930939,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.5604377090930939,
+          "max": 0.5604377090930939
+        }
+      }
+    },
+    "quality_exception_single_hand": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_exception_two_hands": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 2,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.585555540515614,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.585555540515614,
+          "max": 5.585555540515614
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.44243669124068064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.44243669124068064,
+          "max": 0.44243669124068064
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.586880624294281,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.586880624294281,
+          "max": 0.586880624294281
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 5.585555540515614,
+          "std": null,
+          "std_ddof": 1,
+          "min": 5.585555540515614,
+          "max": 5.585555540515614
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.44243669124068064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.44243669124068064,
+          "max": 0.44243669124068064
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.586880624294281,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.586880624294281,
+          "max": 0.586880624294281
+        }
+      }
+    }
+  },
+  "reference_mask": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\reference_mask.png",
+  "reference_keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\reference_keypoints.png",
+  "reference_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20261004_041248_UTC_53d658\\aUBQCNegrYc_3-1-rgb_front_report\\reference_42x2.npy",
+  "seed": 42,
+  "prepare_only": false,
+  "processing_seconds": 19.68343889992684
+}

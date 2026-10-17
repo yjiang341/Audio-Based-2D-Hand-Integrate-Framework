@@ -1,0 +1,820 @@
+{
+  "status": "completed",
+  "config": {
+    "enabled": true,
+    "device": "cpu",
+    "batch_size": 16,
+    "feature": 2048,
+    "kid_subsets": 100,
+    "kid_subset_size": 50,
+    "seed": 2026,
+    "min_samples": 2
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "torch": "2.3.0+cu121",
+    "torchmetrics": "1.8.2",
+    "torch-fidelity": "0.3.0",
+    "opencv-python": "4.13.0.92"
+  },
+  "samples": [
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\5L334OJnp7w_10-5-rgb_front.mp4",
+      "target_frame_idx": 34,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        119,
+        104,
+        227,
+        182
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\ground_truth_frame\\frame_000034_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\generated_image\\frame_000034_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\5L334OJnp7w_10-5-rgb_front.mp4",
+      "target_frame_idx": 34,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        31,
+        75,
+        98,
+        167
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\ground_truth_frame\\frame_000034_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\generated_image\\frame_000034_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\5L334OJnp7w_10-5-rgb_front.mp4",
+      "target_frame_idx": 46,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        132,
+        119,
+        227,
+        185
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\ground_truth_frame\\frame_000046_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\generated_image\\frame_000046_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\5L334OJnp7w_10-5-rgb_front.mp4",
+      "target_frame_idx": 46,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        31,
+        72,
+        128,
+        148
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\ground_truth_frame\\frame_000046_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\generated_image\\frame_000046_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\5L334OJnp7w_10-5-rgb_front.mp4",
+      "target_frame_idx": 59,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        121,
+        71,
+        227,
+        182
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\ground_truth_frame\\frame_000059_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\generated_image\\frame_000059_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\5L334OJnp7w_10-5-rgb_front.mp4",
+      "target_frame_idx": 59,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        31,
+        91,
+        143,
+        187
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\ground_truth_frame\\frame_000059_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\5L334OJnp7w_10-5-rgb_front_report\\generated_image\\frame_000059_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\04-j8JucIXg_0-8-rgb_front.mp4",
+      "target_frame_idx": 59,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        146,
+        70,
+        227,
+        187
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\ground_truth_frame\\frame_000059_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\generated_image\\frame_000059_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\04-j8JucIXg_0-8-rgb_front.mp4",
+      "target_frame_idx": 59,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        31,
+        90,
+        115,
+        181
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\ground_truth_frame\\frame_000059_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\generated_image\\frame_000059_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\04-j8JucIXg_0-8-rgb_front.mp4",
+      "target_frame_idx": 68,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        162,
+        74,
+        227,
+        183
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\ground_truth_frame\\frame_000068_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\generated_image\\frame_000068_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\04-j8JucIXg_0-8-rgb_front.mp4",
+      "target_frame_idx": 68,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        31,
+        74,
+        90,
+        180
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\ground_truth_frame\\frame_000068_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\generated_image\\frame_000068_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\04-j8JucIXg_0-8-rgb_front.mp4",
+      "target_frame_idx": 81,
+      "hand": "right",
+      "groups": [
+        "quality_exception",
+        "quality_exception_two_hands"
+      ],
+      "box_xyxy": [
+        118,
+        63,
+        227,
+        186
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\ground_truth_frame\\frame_000081_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\generated_image\\frame_000081_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\04-j8JucIXg_0-8-rgb_front.mp4",
+      "target_frame_idx": 81,
+      "hand": "left",
+      "groups": [
+        "quality_exception",
+        "quality_exception_two_hands"
+      ],
+      "box_xyxy": [
+        31,
+        76,
+        147,
+        195
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\ground_truth_frame\\frame_000081_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\generated_image\\frame_000081_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\04-j8JucIXg_0-8-rgb_front.mp4",
+      "target_frame_idx": 90,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        155,
+        73,
+        227,
+        186
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\ground_truth_frame\\frame_000090_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\generated_image\\frame_000090_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\04-j8JucIXg_0-8-rgb_front.mp4",
+      "target_frame_idx": 90,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        30,
+        70,
+        93,
+        185
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\ground_truth_frame\\frame_000090_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\04-j8JucIXg_0-8-rgb_front_report\\generated_image\\frame_000090_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 36,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        122,
+        167,
+        193,
+        227
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000036_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000036_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 36,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        63,
+        30,
+        117,
+        92
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000036_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000036_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 128,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_single_hand"
+      ],
+      "box_xyxy": [
+        40,
+        72,
+        218,
+        185
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000128_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000128_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 180,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        142,
+        118,
+        227,
+        205
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000180_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000180_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 180,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        30,
+        53,
+        83,
+        122
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000180_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000180_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 196,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        155,
+        142,
+        227,
+        191
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000196_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000196_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 196,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        30,
+        68,
+        68,
+        122
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000196_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000196_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 428,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        149,
+        100,
+        226,
+        177
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000428_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000428_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\-0daC3SWCPQ_4-5-rgb_front.mp4",
+      "target_frame_idx": 428,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        30,
+        80,
+        105,
+        152
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\ground_truth_frame\\frame_000428_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\-0daC3SWCPQ_4-5-rgb_front_report\\generated_image\\frame_000428_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\0GwSyviALiU_10-11-rgb_front.mp4",
+      "target_frame_idx": 9,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        135,
+        142,
+        217,
+        227
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\ground_truth_frame\\frame_000009_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\generated_image\\frame_000009_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\0GwSyviALiU_10-11-rgb_front.mp4",
+      "target_frame_idx": 9,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        40,
+        30,
+        140,
+        130
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\ground_truth_frame\\frame_000009_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\generated_image\\frame_000009_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\0GwSyviALiU_10-11-rgb_front.mp4",
+      "target_frame_idx": 33,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        138,
+        107,
+        227,
+        201
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\ground_truth_frame\\frame_000033_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\generated_image\\frame_000033_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\0GwSyviALiU_10-11-rgb_front.mp4",
+      "target_frame_idx": 33,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        30,
+        57,
+        120,
+        146
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\ground_truth_frame\\frame_000033_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\generated_image\\frame_000033_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\0GwSyviALiU_10-11-rgb_front.mp4",
+      "target_frame_idx": 64,
+      "hand": "right",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        79,
+        117,
+        227,
+        191
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\ground_truth_frame\\frame_000064_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\generated_image\\frame_000064_raw.png"
+    },
+    {
+      "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\0GwSyviALiU_10-11-rgb_front.mp4",
+      "target_frame_idx": 64,
+      "hand": "left",
+      "groups": [
+        "quality_pass",
+        "quality_pass_two_hands"
+      ],
+      "box_xyxy": [
+        30,
+        66,
+        178,
+        163
+      ],
+      "truth_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\ground_truth_frame\\frame_000064_256.png",
+      "generated_path": "D:\\Project\\hand_test\\reference_output\\batch_20260929_214408_UTC_a1b276\\0GwSyviALiU_10-11-rgb_front_report\\generated_image\\frame_000064_raw.png"
+    }
+  ],
+  "errors": [],
+  "groups": {
+    "quality_pass": {
+      "overall": {
+        "real_count": 27,
+        "generated_count": 27,
+        "clip_count": 4,
+        "fid": 242.67796192732297,
+        "kid": {
+          "mean": 0.14964223264032694,
+          "std": 3.6553155242989473e-16,
+          "std_ddof": 0,
+          "std_unit": "repeated_image_subsets_not_clips",
+          "subset_size": 27,
+          "requested_subset_size": 50,
+          "subsets": 100,
+          "full_subset": true,
+          "note": "Full-set repetitions can have zero Std; this is not zero uncertainty.",
+          "seed": 2026,
+          "kernel": "(x dot y / 2048 + 1)^3",
+          "scale": "raw"
+        },
+        "status": "success"
+      },
+      "left": {
+        "real_count": 13,
+        "generated_count": 13,
+        "clip_count": 4,
+        "fid": 278.90248168850616,
+        "kid": {
+          "mean": 0.15015243566430486,
+          "std": 1.542371118540254e-16,
+          "std_ddof": 0,
+          "std_unit": "repeated_image_subsets_not_clips",
+          "subset_size": 13,
+          "requested_subset_size": 50,
+          "subsets": 100,
+          "full_subset": true,
+          "note": "Full-set repetitions can have zero Std; this is not zero uncertainty.",
+          "seed": 2026,
+          "kernel": "(x dot y / 2048 + 1)^3",
+          "scale": "raw"
+        },
+        "status": "success"
+      },
+      "right": {
+        "real_count": 14,
+        "generated_count": 14,
+        "clip_count": 4,
+        "fid": 253.26037571877734,
+        "kid": {
+          "mean": 0.14923549298606806,
+          "std": 6.468180684544365e-16,
+          "std_ddof": 0,
+          "std_unit": "repeated_image_subsets_not_clips",
+          "subset_size": 14,
+          "requested_subset_size": 50,
+          "subsets": 100,
+          "full_subset": true,
+          "note": "Full-set repetitions can have zero Std; this is not zero uncertainty.",
+          "seed": 2026,
+          "kernel": "(x dot y / 2048 + 1)^3",
+          "scale": "raw"
+        },
+        "status": "success"
+      }
+    },
+    "quality_exception": {
+      "overall": {
+        "real_count": 2,
+        "generated_count": 2,
+        "clip_count": 1,
+        "fid": 333.95811590203834,
+        "kid": {
+          "mean": 0.2912643632815097,
+          "std": 5.218048215738236e-16,
+          "std_ddof": 0,
+          "std_unit": "repeated_image_subsets_not_clips",
+          "subset_size": 2,
+          "requested_subset_size": 50,
+          "subsets": 100,
+          "full_subset": true,
+          "note": "Full-set repetitions can have zero Std; this is not zero uncertainty.",
+          "seed": 2026,
+          "kernel": "(x dot y / 2048 + 1)^3",
+          "scale": "raw"
+        },
+        "status": "success"
+      },
+      "left": {
+        "real_count": 1,
+        "generated_count": 1,
+        "clip_count": 1,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 1."
+      },
+      "right": {
+        "real_count": 1,
+        "generated_count": 1,
+        "clip_count": 1,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 1."
+      }
+    },
+    "quality_unknown": {
+      "overall": {
+        "real_count": 0,
+        "generated_count": 0,
+        "clip_count": 0,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 0."
+      },
+      "left": {
+        "real_count": 0,
+        "generated_count": 0,
+        "clip_count": 0,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 0."
+      },
+      "right": {
+        "real_count": 0,
+        "generated_count": 0,
+        "clip_count": 0,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 0."
+      }
+    },
+    "quality_pass_single_hand": {
+      "overall": {
+        "real_count": 1,
+        "generated_count": 1,
+        "clip_count": 1,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 1."
+      },
+      "left": {
+        "real_count": 0,
+        "generated_count": 0,
+        "clip_count": 0,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 0."
+      },
+      "right": {
+        "real_count": 1,
+        "generated_count": 1,
+        "clip_count": 1,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 1."
+      }
+    },
+    "quality_pass_two_hands": {
+      "overall": {
+        "real_count": 26,
+        "generated_count": 26,
+        "clip_count": 4,
+        "fid": 244.90124434451394,
+        "kid": {
+          "mean": 0.15034131939675163,
+          "std": 3.5007252708724315e-16,
+          "std_ddof": 0,
+          "std_unit": "repeated_image_subsets_not_clips",
+          "subset_size": 26,
+          "requested_subset_size": 50,
+          "subsets": 100,
+          "full_subset": true,
+          "note": "Full-set repetitions can have zero Std; this is not zero uncertainty.",
+          "seed": 2026,
+          "kernel": "(x dot y / 2048 + 1)^3",
+          "scale": "raw"
+        },
+        "status": "success"
+      },
+      "left": {
+        "real_count": 13,
+        "generated_count": 13,
+        "clip_count": 4,
+        "fid": 278.90248168850616,
+        "kid": {
+          "mean": 0.15015243566430486,
+          "std": 1.542371118540254e-16,
+          "std_ddof": 0,
+          "std_unit": "repeated_image_subsets_not_clips",
+          "subset_size": 13,
+          "requested_subset_size": 50,
+          "subsets": 100,
+          "full_subset": true,
+          "note": "Full-set repetitions can have zero Std; this is not zero uncertainty.",
+          "seed": 2026,
+          "kernel": "(x dot y / 2048 + 1)^3",
+          "scale": "raw"
+        },
+        "status": "success"
+      },
+      "right": {
+        "real_count": 13,
+        "generated_count": 13,
+        "clip_count": 4,
+        "fid": 256.9953852480351,
+        "kid": {
+          "mean": 0.14876311075358017,
+          "std": 3.3601445959922217e-16,
+          "std_ddof": 0,
+          "std_unit": "repeated_image_subsets_not_clips",
+          "subset_size": 13,
+          "requested_subset_size": 50,
+          "subsets": 100,
+          "full_subset": true,
+          "note": "Full-set repetitions can have zero Std; this is not zero uncertainty.",
+          "seed": 2026,
+          "kernel": "(x dot y / 2048 + 1)^3",
+          "scale": "raw"
+        },
+        "status": "success"
+      }
+    },
+    "quality_exception_single_hand": {
+      "overall": {
+        "real_count": 0,
+        "generated_count": 0,
+        "clip_count": 0,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 0."
+      },
+      "left": {
+        "real_count": 0,
+        "generated_count": 0,
+        "clip_count": 0,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 0."
+      },
+      "right": {
+        "real_count": 0,
+        "generated_count": 0,
+        "clip_count": 0,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 0."
+      }
+    },
+    "quality_exception_two_hands": {
+      "overall": {
+        "real_count": 2,
+        "generated_count": 2,
+        "clip_count": 1,
+        "fid": 333.95811590203834,
+        "kid": {
+          "mean": 0.2912643632815097,
+          "std": 5.218048215738236e-16,
+          "std_ddof": 0,
+          "std_unit": "repeated_image_subsets_not_clips",
+          "subset_size": 2,
+          "requested_subset_size": 50,
+          "subsets": 100,
+          "full_subset": true,
+          "note": "Full-set repetitions can have zero Std; this is not zero uncertainty.",
+          "seed": 2026,
+          "kernel": "(x dot y / 2048 + 1)^3",
+          "scale": "raw"
+        },
+        "status": "success"
+      },
+      "left": {
+        "real_count": 1,
+        "generated_count": 1,
+        "clip_count": 1,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 1."
+      },
+      "right": {
+        "real_count": 1,
+        "generated_count": 1,
+        "clip_count": 1,
+        "fid": null,
+        "kid": null,
+        "status": "insufficient_samples",
+        "reason": "Need >= 2 ROI pairs; got 1."
+      }
+    }
+  },
+  "sample_space": "matching_target_defined_unsegmented_hand_ROIs_256_RGB",
+  "fid_interpretation": "exploratory_finite_sample_estimate",
+  "weighting": "one_ROI_per_present_target_hand_not_clip_equal"
+}

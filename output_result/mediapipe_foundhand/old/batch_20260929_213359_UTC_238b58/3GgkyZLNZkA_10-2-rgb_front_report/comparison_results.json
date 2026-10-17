@@ -1,0 +1,849 @@
+{
+  "video_path": "D:\\Project\\hand_test\\how2sign\\train_rgb_front_clips\\3GgkyZLNZkA_10-2-rgb_front.mp4",
+  "reference_frame_idx": 13,
+  "reference_image": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\reference_256.png",
+  "reference_image_kind": "hand_only",
+  "frame_index_base": 0,
+  "fps": 24.0,
+  "requested_target_count": 5,
+  "selected_target_count": 1,
+  "shortfall": 4,
+  "scanned_frame_count": 78,
+  "eligible_candidate_count": 4,
+  "quality_pass_selected_count": 1,
+  "quality_exception_selected_count": 0,
+  "single_hand_selected_count": 0,
+  "two_hand_selected_count": 1,
+  "selection_diagnostics": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\selection_diagnostics.json",
+  "selection_stage_counts": {
+    "detection_or_crop": 54,
+    "not_selected": 3,
+    "reference_gap": 7,
+    "selected": 1,
+    "stability": 13
+  },
+  "selection_reason_counts": {
+    "a hand is too close to the source image border": 22,
+    "a handedness score is too low": 4,
+    "expected_one_or_two_hands": 5,
+    "hand_count_or_label_changed": 4,
+    "invalid_hand_labels_or_points: Handedness must be unique and known.": 20,
+    "invalid_stability_neighbor": 9,
+    "selected": 1,
+    "selection_limit_or_diversity": 3,
+    "target_crop_unusable: A hand touches or leaves its crop. Increase crop_scale or select a different frame.": 3,
+    "too_close_to_reference": 7
+  },
+  "selection_config": {
+    "num_targets": 5,
+    "min_reference_gap_seconds": 0.3,
+    "min_target_gap_seconds": 0.3,
+    "min_shape_change": 0.25,
+    "min_wrist_displacement": 0.025,
+    "min_pair_distance_change": 0.025,
+    "min_hand_detail": 200.0,
+    "max_window_motion": 0.012,
+    "min_handedness_score": 0.7,
+    "edge_gap": 0.04,
+    "max_neighbor_wrist_jump": 0.08,
+    "max_neighbor_shape_jump": 0.5,
+    "crop_scale": 1.5
+  },
+  "ground_truth_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\ground_truth_frame",
+  "generated_image_dir": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\generated_image",
+  "targets": [
+    {
+      "target_frame_idx": 29,
+      "target_timestamp_ms": 1208,
+      "hands": [
+        {
+          "handedness": "Right",
+          "handedness_score": 0.9433214068412781,
+          "landmarks_xy": [
+            [
+              0.3030678331851959,
+              0.4598614275455475
+            ],
+            [
+              0.30869507789611816,
+              0.43128031492233276
+            ],
+            [
+              0.3069263696670532,
+              0.40392938256263733
+            ],
+            [
+              0.30456626415252686,
+              0.3839496374130249
+            ],
+            [
+              0.3056532144546509,
+              0.36858102679252625
+            ],
+            [
+              0.279629647731781,
+              0.39682355523109436
+            ],
+            [
+              0.26742833852767944,
+              0.3798159956932068
+            ],
+            [
+              0.2599652111530304,
+              0.37107381224632263
+            ],
+            [
+              0.2533843219280243,
+              0.36427026987075806
+            ],
+            [
+              0.272296279668808,
+              0.4093708395957947
+            ],
+            [
+              0.2579953968524933,
+              0.3913460075855255
+            ],
+            [
+              0.24923446774482727,
+              0.38098084926605225
+            ],
+            [
+              0.2418588399887085,
+              0.37317103147506714
+            ],
+            [
+              0.2679176330566406,
+              0.42415979504585266
+            ],
+            [
+              0.25450757145881653,
+              0.4075724482536316
+            ],
+            [
+              0.2471504658460617,
+              0.3979758322238922
+            ],
+            [
+              0.24095012247562408,
+              0.3904590308666229
+            ],
+            [
+              0.2660372257232666,
+              0.4415605068206787
+            ],
+            [
+              0.25439947843551636,
+              0.4307548403739929
+            ],
+            [
+              0.24764052033424377,
+              0.42349329590797424
+            ],
+            [
+              0.24203625321388245,
+              0.4168797433376312
+            ]
+          ]
+        },
+        {
+          "handedness": "Left",
+          "handedness_score": 0.955982506275177,
+          "landmarks_xy": [
+            [
+              0.6738020777702332,
+              0.48332342505455017
+            ],
+            [
+              0.6680718660354614,
+              0.45262590050697327
+            ],
+            [
+              0.6698919534683228,
+              0.4247171878814697
+            ],
+            [
+              0.6725389361381531,
+              0.4055253565311432
+            ],
+            [
+              0.6725146770477295,
+              0.3903277814388275
+            ],
+            [
+              0.7022384405136108,
+              0.41757476329803467
+            ],
+            [
+              0.7166648507118225,
+              0.40147140622138977
+            ],
+            [
+              0.7258974313735962,
+              0.3950977921485901
+            ],
+            [
+              0.7336975932121277,
+              0.39163658022880554
+            ],
+            [
+              0.709285318851471,
+              0.4295041263103485
+            ],
+            [
+              0.7256028056144714,
+              0.41225379705429077
+            ],
+            [
+              0.7352816462516785,
+              0.4031480550765991
+            ],
+            [
+              0.7429545521736145,
+              0.39672985672950745
+            ],
+            [
+              0.7133908271789551,
+              0.4439912736415863
+            ],
+            [
+              0.7291366457939148,
+              0.4283537268638611
+            ],
+            [
+              0.7374648451805115,
+              0.4184251129627228
+            ],
+            [
+              0.7439226508140564,
+              0.4104793965816498
+            ],
+            [
+              0.7149419188499451,
+              0.46179401874542236
+            ],
+            [
+              0.7292295098304749,
+              0.45339253544807434
+            ],
+            [
+              0.7379856109619141,
+              0.4471346437931061
+            ],
+            [
+              0.7451786994934082,
+              0.4411475956439972
+            ]
+          ]
+        }
+      ],
+      "hand_count": 2,
+      "pose_change": {
+        "shared_hands": [
+          "Left",
+          "Right"
+        ],
+        "hand_count_pair": "2-2",
+        "comparison_supported": true,
+        "shape_change": 1.5607430934906006,
+        "max_wrist_displacement": 0.15519611730216004,
+        "pair_distance_change": 0.22800187601666055,
+        "shape_by_hand": {
+          "Left": 1.2589114904403687,
+          "Right": 1.5607430934906006
+        },
+        "wrist_by_hand": {
+          "Left": 0.15519611730216004,
+          "Right": 0.13390169697634657
+        }
+      },
+      "minimum_hand_detail": 403.527665259565,
+      "per_hand_detail": {
+        "Right": {
+          "laplacian_variance": 403.527665259565,
+          "gray_contrast": 32.936827354570816,
+          "roi_source_xyxy": [
+            291,
+            235,
+            413,
+            358
+          ]
+        },
+        "Left": {
+          "laplacian_variance": 1736.920659943153,
+          "gray_contrast": 31.59906965750314,
+          "roi_source_xyxy": [
+            835,
+            245,
+            974,
+            384
+          ]
+        }
+      },
+      "target_window_motion": 0.004159088668296241,
+      "quality_exception": false,
+      "quality_failures": [],
+      "crop_xy_side_source_pixels": {
+        "x0": 271,
+        "y0": 0,
+        "side": 720
+      },
+      "ground_truth_full": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\ground_truth_frame\\frame_000029_full.png",
+      "ground_truth_crop": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\ground_truth_frame\\frame_000029_256.png",
+      "keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\ground_truth_frame\\frame_000029_keypoints.png",
+      "target_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\ground_truth_frame\\frame_000029_42x2.npy",
+      "target_heatmaps_42x32x32": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\ground_truth_frame\\frame_000029_heatmap_42x32x32.npy",
+      "status": "success",
+      "generation_wall_seconds": 4.937463899957947,
+      "generated_raw_image": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\generated_image\\frame_000029_raw.png",
+      "metrics": {
+        "psnr": 10.069194817181064,
+        "ssim": 0.6563077334308477,
+        "lpips": 0.6597442328929901
+      },
+      "metrics_by_hand": {
+        "right": {
+          "psnr": 10.052535945847168,
+          "ssim": 0.6590698218827822,
+          "lpips": 0.624701976776123
+        },
+        "left": {
+          "psnr": 10.085853688514959,
+          "ssim": 0.6535456449789132,
+          "lpips": 0.6947864890098572
+        }
+      },
+      "orientation_status": "not_evaluated",
+      "metrics_by_hand_non_finite": {
+        "right": [],
+        "left": []
+      },
+      "metric_non_finite": [],
+      "seed": 2026,
+      "ground_truth_image": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\ground_truth_frame\\frame_000029_hands.png",
+      "ground_truth_mask": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\ground_truth_frame\\frame_000029_mask.png",
+      "generated_image": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\generated_image\\frame_000029_256.png",
+      "generated_mask": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\generated_image\\frame_000029_mask.png",
+      "display_status": "success"
+    }
+  ],
+  "metric_space": "unsegmented_RGB_in_matching_target_hand_boxes_resized_256x256",
+  "display_space": "segmented_hands_on_white",
+  "selection_seconds": 1.9592519000871107,
+  "success_count": 1,
+  "failed_count": 0,
+  "prepared_count": 0,
+  "display_failed_count": 0,
+  "metric_summary": {
+    "quality_pass": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 2,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 10.069194817181064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 10.069194817181064,
+          "max": 10.069194817181064
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6563077334308477,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.6563077334308477,
+          "max": 0.6563077334308477
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6597442328929901,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.6597442328929901,
+          "max": 0.6597442328929901
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 10.069194817181064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 10.069194817181064,
+          "max": 10.069194817181064
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6563077334308477,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.6563077334308477,
+          "max": 0.6563077334308477
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6597442328929901,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.6597442328929901,
+          "max": 0.6597442328929901
+        }
+      }
+    },
+    "quality_exception": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_unknown": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_pass_single_hand": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_pass_two_hands": {
+      "selected_target_count": 1,
+      "successful_target_count": 1,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 1,
+      "hand_count_with_scores": 2,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 10.069194817181064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 10.069194817181064,
+          "max": 10.069194817181064
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6563077334308477,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.6563077334308477,
+          "max": 0.6563077334308477
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6597442328929901,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.6597442328929901,
+          "max": 0.6597442328929901
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 10.069194817181064,
+          "std": null,
+          "std_ddof": 1,
+          "min": 10.069194817181064,
+          "max": 10.069194817181064
+        },
+        "ssim": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6563077334308477,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.6563077334308477,
+          "max": 0.6563077334308477
+        },
+        "lpips": {
+          "valid_count": 1,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": 0.6597442328929901,
+          "std": null,
+          "std_ddof": 1,
+          "min": 0.6597442328929901,
+          "max": 0.6597442328929901
+        }
+      }
+    },
+    "quality_exception_single_hand": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    "quality_exception_two_hands": {
+      "selected_target_count": 0,
+      "successful_target_count": 0,
+      "failed_target_count": 0,
+      "pending_or_prepared_target_count": 0,
+      "clip_count_with_success": 0,
+      "hand_count_with_scores": 0,
+      "target_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      },
+      "clip_weighted": {
+        "psnr": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "ssim": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        },
+        "lpips": {
+          "valid_count": 0,
+          "missing_count": 0,
+          "non_finite_count": 0,
+          "mean": null,
+          "std": null,
+          "std_ddof": 1,
+          "min": null,
+          "max": null
+        }
+      }
+    }
+  },
+  "reference_mask": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\reference_mask.png",
+  "reference_keypoints_preview": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\reference_keypoints.png",
+  "reference_keypoints_42x2": "D:\\Project\\hand_test\\reference_output\\batch_20260929_213359_UTC_238b58\\3GgkyZLNZkA_10-2-rgb_front_report\\reference_42x2.npy",
+  "seed": 2026,
+  "prepare_only": false,
+  "processing_seconds": 27.119959499919787
+}
